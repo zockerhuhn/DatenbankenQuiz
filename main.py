@@ -17,7 +17,8 @@ def is_similar(userInput, answer):
   answer = answer.lowercase()
   if userInput == answer:
     return True
-  
+  for i in range(len(userInput)):
+    if userInput[i] == answer[i]
 
 def ask_question(questionType):
   match questionType:
