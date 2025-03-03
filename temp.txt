@@ -1,0 +1,1 @@
+CREATE TABLE user (UID int NOT NULL AUTO_INCREMENT, Name varchar(255) UNIQUE, Highscore_normal int, Highscore_hard int, PRIMARY KEY (UID))
