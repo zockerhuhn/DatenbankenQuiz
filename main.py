@@ -17,8 +17,12 @@ def is_similar(userInput, answer):
   answer = answer.lowercase()
   if userInput == answer:
     return True
+  correctChars = 0
+  wrongChars = 0
   for i in range(len(userInput)):
-    if userInput[i] == answer[i]
+    if userInput[i] == answer[i]:
+      correctChars += 1
+  if wrongChars <= 2 or (correctChars+wrongChars)
 
 def ask_question(questionType):
   match questionType:
