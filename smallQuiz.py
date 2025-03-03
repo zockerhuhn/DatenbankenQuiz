@@ -15,6 +15,6 @@ while 1:
         maxScore += 1
         currentScore += 1
     else:
-        print("falsch")
+        print(f"falsch, Antwort: {result[1]}")
         maxScore += 1
     print(f"Du hast {currentScore}/{maxScore} Fragen richtig beantwortet")
