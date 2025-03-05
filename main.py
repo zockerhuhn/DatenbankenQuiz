@@ -1,8 +1,8 @@
 import mysql.connector
 import random
 
-mydb = mysql.connector.connect(host="localhost", user= "eggbert",password="EggbertHatUser",database="testdb")
-#mydb = mysql.connector.connect(host="10.0.41.8", user= "nutzer14",password="Eftg8xdx",database="Datenbank14")
+#mydb = mysql.connector.connect(host="localhost", user= "eggbert",password="EggbertHatUser",database="testdb")
+mydb = mysql.connector.connect(host="10.0.41.8", user= "nutzer14",password="Eftg8xdx",database="Datenbank14")
 mycursor = mydb.cursor()
 
 answLimitNormal = 4
@@ -43,7 +43,10 @@ def ask_question(questionType):
       else:
         print(f"Inkorrekt, die Antwort war: {fetchResult[questionNr][1]}")
     case 1:
-      sql = "SELECT sprache.Name, land.Name, gesprochen.Anteil FROM ((gesprochen INNER JOIN land ON gesprochen.LNR = land.LNR) INNER JOIN sprache ON gesprochen.SNR = sprache.SNR) WHERE gesprochen.Anteil IS NOT NULL AND gesprochen.Anteil > 50"
+      if userInput == "hard":
+        sql = "SELECT sprache.Name, land.Name, gesprochen.Anteil FROM ((gesprochen INNER JOIN land ON gesprochen.LNR = land.LNR) INNER JOIN sprache ON gesprochen.SNR = sprache.SNR) WHERE gesprochen.Anteil IS NOT NULL"
+      else:
+        sql = "SELECT sprache.Name, land.Name, gesprochen.Anteil FROM ((gesprochen INNER JOIN land ON gesprochen.LNR = land.LNR) INNER JOIN sprache ON gesprochen.SNR = sprache.SNR) WHERE gesprochen.Anteil IS NOT NULL AND gesprochen.Anteil > 50"
       mycursor.execute(sql)
       fetchResult = mycursor.fetchall()
       questionNr = random.randint(0, len(fetchResult)-1)
@@ -74,6 +77,7 @@ if __name__ == "__main__":
     input(f"(Der Name {name} wurde bisher noch nicht benutzt, falls du nicht neu hier bist überprüfe die Rechtschreibung des Namens)(ENTER um fortzufahren)")
     sql = "INSERT INTO user (Name) VALUES (%s)"
     mycursor.execute(sql, val)
+    fetchResult = [0, 0]
   else:
     sql = "SELECT user.Highscore_normal, user.Highscore_hard FROM user WHERE user.Name = %s"
     mycursor.execute(sql, val)
@@ -113,7 +117,7 @@ if __name__ == "__main__":
     print(f"starte hard, nach {answLimitHard} falschen Antworten endet das Quiz")
     highscore = fetchResult[1]
     while scoreMax-score < answLimitHard:
-      questionType = random.randint(2, 2)
+      questionType = random.randint(1, 2)
       if ask_question(questionType):
         score +=1
       scoreMax+=1
