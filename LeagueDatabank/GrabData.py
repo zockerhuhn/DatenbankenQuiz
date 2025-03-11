@@ -34,7 +34,9 @@ def get_championInfo():
       champsFile.write(json_obj)
 
 def get_winrates(): #https://www.leagueofgraphs.com/champions/builds/aatrox/top
+  champsList = []
   with open('LeagueDatabank\\champion-info.json', 'r') as champsFile:
+   jsonList 
     
             
 start_browser()
