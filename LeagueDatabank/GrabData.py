@@ -52,8 +52,11 @@ def get_winrates(): #https://www.leagueofgraphs.com/champions/builds/aatrox/top
     }
     for role in roles:
       LoG.get(f"https://www.leagueofgraphs.com/champions/builds/{champ['name']}/{role}")
-      winrateDict[role] = LoG.find_element()
-      
+      winrateDict[role] = LoG.find_element().text
+    winrates.append(winrateDict)
+  with open('LeagueDatabank\\winrates.json', 'w') as winratesFile:
+    json_obj = json.dump(winrates, indent=2)
+    winrates_File.write(json_obj)
             
 start_browser()
 get_championInfo()
