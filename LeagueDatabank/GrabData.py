@@ -17,18 +17,23 @@ def start_browser():
 
 def get_championInfo():
     global LoG
-    champsList = LoG.find_elements(by=By.XPATH, value="//div/span[@class ='name']")
-    champsList.pop(0)
-    with open('LeagueDatabank\\champion-info.json', 'w') as namesFile:
-        for i in champsList:
-            name = i.find_element(by=By.ID, value='name')
-            roles = i.find_element(by=By.NAME, value='i')
-            champ = {
-              "name": name,
-              "roles": roles
-            }
-            print(champ)
-             
+    dictList = []
+    champsList = LoG.find_elements(by=By.XPATH, value="//div[@class ='txt']/span[@class ='name']|//div[@class ='txt']/i|//progressbar[@data-color='wggreen']/div/div[@class='progressBarTxt']")
+    for i in range(int(len(champsList)/3)):
+      name = champsList[i*3].text
+      roles = champsList[(i*3)+1].text
+      generalWinrate = champsList[(i*3)+2].text
+      champ = {
+        "name": name,
+        "roles": roles,
+        "Winrate": generalWinrate
+      }
+      print(champ)
+      dictList.append(champ)
+    with open('LeagueDatabank\\champion-info.json', 'w') as champsFile:
+      json_obj = json.dumps(dictList, indent=2)
+      champsFile.write(json_obj)
+
             
 start_browser()
 get_championInfo()
