@@ -34,10 +34,14 @@ def get_championInfo():
       champsFile.write(json_obj)
 
 def get_winrates(): #https://www.leagueofgraphs.com/champions/builds/aatrox/top
-  champsList = []
+  global LoG
+  winrates = []
   with open('LeagueDatabank\\champion-info.json', 'r') as champsFile:
-   jsonList 
-    
+   jsonList = json.load(champsFile) 
+   for champ in jsonList:
+   if ',' in champ['roles']:
+     roles = champ['roles'].split(',')
+     LoG.get(f"https://www.leagueofgraphs.com/champions/builds/{champ['name']}/{role}")
             
 start_browser()
 get_championInfo()
