@@ -37,11 +37,23 @@ def get_winrates(): #https://www.leagueofgraphs.com/champions/builds/aatrox/top
   global LoG
   winrates = []
   with open('LeagueDatabank\\champion-info.json', 'r') as champsFile:
-   jsonList = json.load(champsFile) 
-   for champ in jsonList:
-   if ',' in champ['roles']:
-     roles = champ['roles'].split(',')
-     LoG.get(f"https://www.leagueofgraphs.com/champions/builds/{champ['name']}/{role}")
+    jsonList = json.load(champsFile) 
+    for champ in jsonList:
+    if ',' in champ['roles']:
+      roles = champ['roles'].split(',')
+    else:
+      roles = champ['roles']
+    winrateDict = {
+      "top": None,
+      "jungle": None,
+      "mid": None,
+      "bot": None,
+      "support": None
+    }
+    for role in roles:
+      LoG.get(f"https://www.leagueofgraphs.com/champions/builds/{champ['name']}/{role}")
+      winrateDict[role] = LoG.find_element()
+      
             
 start_browser()
 get_championInfo()
