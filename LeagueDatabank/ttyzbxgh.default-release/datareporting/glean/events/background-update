@@ -1,0 +1,4 @@
+{"timestamp":666,"category":"nimbus_events","name":"validation_failed","extra":{"reason":"invalid-feature","feature":"addAnImageInPDF","experiment":"add-an-image-to-pdf-with-alt-text-rollout","glean_timestamp":"1741683774276"}}
+{"timestamp":666,"category":"nimbus_events","name":"validation_failed","extra":{"feature":"tabPreview","experiment":"tab-hover-preview-release-rollout","reason":"invalid-feature","glean_timestamp":"1741683774276"}}
+{"timestamp":30242,"category":"nimbus_events","name":"validation_failed","extra":{"reason":"invalid-feature","experiment":"add-an-image-to-pdf-with-alt-text-rollout","glean_timestamp":"1741683803852","feature":"addAnImageInPDF"}}
+{"timestamp":30243,"category":"nimbus_events","name":"validation_failed","extra":{"experiment":"tab-hover-preview-release-rollout","glean_timestamp":"1741683803853","reason":"invalid-feature","feature":"tabPreview"}}
