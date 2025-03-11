@@ -11,18 +11,19 @@ def start_browser():
   """
   global LoG
   options = webdriver.FirefoxOptions()
-  #options.profile = FirefoxProfile("LeagueDatabank\\ttyzbxgh.default-release")
+  options.profile = FirefoxProfile("LeagueDatabank\\ttyzbxgh.default-release")
   LoG = webdriver.Firefox(options)
   LoG.get("https://www.leagueofgraphs.com/champions/builds/by-champion-name")
 
 def get_championInfo():
     global LoG
     dictList = []
-    champsList = LoG.find_elements(by=By.XPATH, value="//div[@class ='txt']/span[@class ='name']|//div[@class ='txt']/i|//progressbar[@data-color='wggreen']/div/div[@class='progressBarTxt']")
+    champsList = LoG.find_elements(by=By.XPATH, value="//div[@class ='txt']/span[@class ='name']|//div[@class ='txt']/i|//progressbar[@data-color='wggreen']/div[@class='progressBarTxt']")
     for i in range(int(len(champsList)/3)):
-      name = champsList[i*3].text
-      roles = champsList[(i*3)+1].text
-      generalWinrate = champsList[(i*3)+2].text
+      name = champsList[i*3].text.lower().replace(" ", "").replace("'", "").replace(".", "").replace("&willump", "").replace("glasc", "").replace("wukong", "monkeyking")
+      roles = champsList[(i*3)+1].text.lower().replace("jungler", "jungle").replace("mid", "middle").replace("ad carry", "adc").replace(" ", "")
+        
+      generalWinrate = champsList[(i*3)+2].text.lower()
       champ = {
         "name": name,
         "roles": roles,
@@ -39,25 +40,27 @@ def get_winrates(): #https://www.leagueofgraphs.com/champions/builds/aatrox/top
   with open('LeagueDatabank\\champion-info.json', 'r') as champsFile:
     jsonList = json.load(champsFile) 
     for champ in jsonList:
-    if ',' in champ['roles']:
-      roles = champ['roles'].split(',')
-    else:
-      roles = champ['roles']
-    winrateDict = {
-      "top": None,
-      "jungle": None,
-      "mid": None,
-      "bot": None,
-      "support": None
-    }
-    for role in roles:
-      LoG.get(f"https://www.leagueofgraphs.com/champions/builds/{champ['name']}/{role}")
-      winrateDict[role] = LoG.find_element().text
-    winrates.append(winrateDict)
+      if ',' in champ['roles']:
+        roles = champ['roles'].split(',')
+      else:
+        roles = [champ['roles']]
+      winrateDict = {
+        "top": None,
+        "jungle": None,
+        "mid": None,
+        "bot": None,
+        "support": None
+      }
+      for role in roles:
+        role
+        LoG.get(f"https://www.leagueofgraphs.com/champions/builds/{champ['name']}/{role}")
+        winrateDict[role] = LoG.find_elements(by=By.ID, value='graphDD1')[1].text
+      winrates.append(winrateDict)
   with open('LeagueDatabank\\winrates.json', 'w') as winratesFile:
-    json_obj = json.dump(winrates, indent=2)
-    winrates_File.write(json_obj)
-            
+    json_obj = json.dumps(winrates, indent=2)
+    winratesFile.write(json_obj)
+
 start_browser()
 get_championInfo()
-# input()
+get_winrates()
+input()
