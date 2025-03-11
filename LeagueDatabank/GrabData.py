@@ -11,19 +11,25 @@ def start_browser():
   """
   global LoG
   options = webdriver.FirefoxOptions()
-  options.profile = FirefoxProfile("LeagueDatabank\\ttyzbxgh.default-release")
+  #options.profile = FirefoxProfile("LeagueDatabank\\ttyzbxgh.default-release")
   LoG = webdriver.Firefox(options)
   LoG.get("https://www.leagueofgraphs.com/champions/builds/by-champion-name")
 
 def get_championInfo():
     global LoG
-    namesList = LoG.find_elements(by=By.CLASS_NAME, value="txt")
-    namesList.pop(0)
+    champsList = LoG.find_elements(by=By.XPATH, value="//div/span[@class ='name']")
+    champsList.pop(0)
     with open('LeagueDatabank\\champion-info.json', 'w') as namesFile:
-        for i in namesList:
-            namesFile.write(i.text + '\n')
-            print(i.text)
-
+        for i in champsList:
+            name = i.find_element(by=By.ID, value='name')
+            roles = i.find_element(by=By.NAME, value='i')
+            champ = {
+              "name": name,
+              "roles": roles
+            }
+            print(champ)
+             
+            
 start_browser()
 get_championInfo()
 # input()
