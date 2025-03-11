@@ -28,12 +28,14 @@ def get_championInfo():
         "roles": roles,
         "Winrate": generalWinrate
       }
-      print(champ)
       dictList.append(champ)
     with open('LeagueDatabank\\champion-info.json', 'w') as champsFile:
       json_obj = json.dumps(dictList, indent=2)
       champsFile.write(json_obj)
 
+def get_winrates(): #https://www.leagueofgraphs.com/champions/builds/aatrox/top
+  with open('LeagueDatabank\\champion-info.json', 'r') as champsFile:
+    
             
 start_browser()
 get_championInfo()
