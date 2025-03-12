@@ -1,6 +1,6 @@
 [
   {
-    "name": "aatrox",
+    "identifier": "aatrox",
     "top": "50.3%",
     "jungle": null,
     "mid": null,
@@ -8,16 +8,16 @@
     "support": null
   },
   {
-    "name": "ahri",
+    "identifier": "ahri",
     "top": null,
     "jungle": null,
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": "51.1%"
+    "middle": 51.1
   },
   {
-    "name": "akali",
+    "identifier": "akali",
     "top": "49.8%",
     "jungle": null,
     "mid": null,
@@ -26,7 +26,7 @@
     "middle": "49.4%"
   },
   {
-    "name": "akshan",
+    "identifier": "akshan",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -35,7 +35,7 @@
     "middle": "50.6%"
   },
   {
-    "name": "alistar",
+    "identifier": "alistar",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -43,7 +43,7 @@
     "support": "49.6%"
   },
   {
-    "name": "ambessa",
+    "identifier": "ambessa",
     "top": "47.7%",
     "jungle": null,
     "mid": null,
@@ -51,7 +51,7 @@
     "support": null
   },
   {
-    "name": "amumu",
+    "identifier": "amumu",
     "top": null,
     "jungle": "51.0%",
     "mid": null,
@@ -59,7 +59,7 @@
     "support": null
   },
   {
-    "name": "anivia",
+    "identifier": "anivia",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -68,7 +68,7 @@
     "middle": "51.9%"
   },
   {
-    "name": "annie",
+    "identifier": "annie",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -77,7 +77,7 @@
     "middle": "53.2%"
   },
   {
-    "name": "aphelios",
+    "identifier": "aphelios",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -86,7 +86,7 @@
     "adc": "48.9%"
   },
   {
-    "name": "ashe",
+    "identifier": "ashe",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -95,7 +95,7 @@
     "adc": "49.5%"
   },
   {
-    "name": "aurelionsol",
+    "identifier": "aurelionsol",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -104,7 +104,7 @@
     "middle": "51.4%"
   },
   {
-    "name": "aurora",
+    "identifier": "aurora",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -113,7 +113,7 @@
     "middle": "48.4%"
   },
   {
-    "name": "azir",
+    "identifier": "azir",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -122,7 +122,7 @@
     "middle": "47.8%"
   },
   {
-    "name": "bard",
+    "identifier": "bard",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -130,7 +130,7 @@
     "support": "50.5%"
   },
   {
-    "name": "belveth",
+    "identifier": "belveth",
     "top": null,
     "jungle": "49.6%",
     "mid": null,
@@ -138,7 +138,7 @@
     "support": null
   },
   {
-    "name": "blitzcrank",
+    "identifier": "blitzcrank",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -146,7 +146,7 @@
     "support": "48.1%"
   },
   {
-    "name": "brand",
+    "identifier": "brand",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -154,7 +154,7 @@
     "support": "50.3%"
   },
   {
-    "name": "braum",
+    "identifier": "braum",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -162,7 +162,7 @@
     "support": "52.0%"
   },
   {
-    "name": "briar",
+    "identifier": "briar",
     "top": null,
     "jungle": "51.1%",
     "mid": null,
@@ -170,7 +170,7 @@
     "support": null
   },
   {
-    "name": "caitlyn",
+    "identifier": "caitlyn",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -179,7 +179,7 @@
     "adc": "49.5%"
   },
   {
-    "name": "camille",
+    "identifier": "camille",
     "top": "50.5%",
     "jungle": null,
     "mid": null,
@@ -187,7 +187,7 @@
     "support": null
   },
   {
-    "name": "cassiopeia",
+    "identifier": "cassiopeia",
     "top": "51.4%",
     "jungle": null,
     "mid": null,
@@ -196,7 +196,7 @@
     "middle": "51.9%"
   },
   {
-    "name": "chogath",
+    "identifier": "chogath",
     "top": "50.2%",
     "jungle": null,
     "mid": null,
@@ -205,7 +205,7 @@
     "middle": "51.9%"
   },
   {
-    "name": "corki",
+    "identifier": "corki",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -214,7 +214,7 @@
     "adc": "49.6%"
   },
   {
-    "name": "darius",
+    "identifier": "darius",
     "top": "50.8%",
     "jungle": "54.5%",
     "mid": null,
@@ -222,7 +222,7 @@
     "support": null
   },
   {
-    "name": "diana",
+    "identifier": "diana",
     "top": null,
     "jungle": "50.9%",
     "mid": null,
@@ -231,7 +231,7 @@
     "middle": "51.4%"
   },
   {
-    "name": "drmundo",
+    "identifier": "drmundo",
     "top": "50.3%",
     "jungle": null,
     "mid": null,
@@ -239,7 +239,7 @@
     "support": null
   },
   {
-    "name": "draven",
+    "identifier": "draven",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -248,7 +248,7 @@
     "adc": "48.9%"
   },
   {
-    "name": "ekko",
+    "identifier": "ekko",
     "top": null,
     "jungle": "49.8%",
     "mid": null,
@@ -257,7 +257,7 @@
     "middle": "50.7%"
   },
   {
-    "name": "elise",
+    "identifier": "elise",
     "top": null,
     "jungle": "48.9%",
     "mid": null,
@@ -265,7 +265,7 @@
     "support": "49.9%"
   },
   {
-    "name": "evelynn",
+    "identifier": "evelynn",
     "top": null,
     "jungle": "49.8%",
     "mid": null,
@@ -273,7 +273,7 @@
     "support": null
   },
   {
-    "name": "ezreal",
+    "identifier": "ezreal",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -282,7 +282,7 @@
     "adc": "49.0%"
   },
   {
-    "name": "fiddlesticks",
+    "identifier": "fiddlesticks",
     "top": null,
     "jungle": "51.1%",
     "mid": null,
@@ -290,7 +290,7 @@
     "support": "52.1%"
   },
   {
-    "name": "fiora",
+    "identifier": "fiora",
     "top": "49.1%",
     "jungle": null,
     "mid": null,
@@ -298,7 +298,7 @@
     "support": null
   },
   {
-    "name": "fizz",
+    "identifier": "fizz",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -307,7 +307,7 @@
     "middle": "49.8%"
   },
   {
-    "name": "galio",
+    "identifier": "galio",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -316,7 +316,7 @@
     "middle": "51.0%"
   },
   {
-    "name": "gangplank",
+    "identifier": "gangplank",
     "top": "47.9%",
     "jungle": null,
     "mid": null,
@@ -324,7 +324,7 @@
     "support": null
   },
   {
-    "name": "garen",
+    "identifier": "garen",
     "top": "50.9%",
     "jungle": null,
     "mid": null,
@@ -332,7 +332,7 @@
     "support": null
   },
   {
-    "name": "gnar",
+    "identifier": "gnar",
     "top": "49.2%",
     "jungle": null,
     "mid": null,
@@ -340,7 +340,7 @@
     "support": null
   },
   {
-    "name": "gragas",
+    "identifier": "gragas",
     "top": "50.1%",
     "jungle": "47.2%",
     "mid": null,
@@ -348,7 +348,7 @@
     "support": null
   },
   {
-    "name": "graves",
+    "identifier": "graves",
     "top": null,
     "jungle": "49.8%",
     "mid": null,
@@ -356,7 +356,7 @@
     "support": null
   },
   {
-    "name": "gwen",
+    "identifier": "gwen",
     "top": "50.0%",
     "jungle": "50.0%",
     "mid": null,
@@ -364,7 +364,7 @@
     "support": null
   },
   {
-    "name": "hecarim",
+    "identifier": "hecarim",
     "top": null,
     "jungle": "49.4%",
     "mid": null,
@@ -372,7 +372,7 @@
     "support": null
   },
   {
-    "name": "heimerdinger",
+    "identifier": "heimerdinger",
     "top": "50.6%",
     "jungle": null,
     "mid": null,
@@ -380,7 +380,7 @@
     "support": null
   },
   {
-    "name": "hwei",
+    "identifier": "hwei",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -389,7 +389,7 @@
     "middle": "49.6%"
   },
   {
-    "name": "illaoi",
+    "identifier": "illaoi",
     "top": "49.7%",
     "jungle": null,
     "mid": null,
@@ -397,7 +397,7 @@
     "support": null
   },
   {
-    "name": "irelia",
+    "identifier": "irelia",
     "top": "50.8%",
     "jungle": null,
     "mid": null,
@@ -406,7 +406,7 @@
     "middle": "50.1%"
   },
   {
-    "name": "ivern",
+    "identifier": "ivern",
     "top": null,
     "jungle": "49.0%",
     "mid": null,
@@ -414,7 +414,7 @@
     "support": null
   },
   {
-    "name": "janna",
+    "identifier": "janna",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -422,7 +422,7 @@
     "support": "50.8%"
   },
   {
-    "name": "jarvaniv",
+    "identifier": "jarvaniv",
     "top": null,
     "jungle": "51.2%",
     "mid": null,
@@ -430,7 +430,7 @@
     "support": null
   },
   {
-    "name": "jax",
+    "identifier": "jax",
     "top": "49.1%",
     "jungle": null,
     "mid": null,
@@ -438,7 +438,7 @@
     "support": null
   },
   {
-    "name": "jayce",
+    "identifier": "jayce",
     "top": "48.6%",
     "jungle": null,
     "mid": null,
@@ -446,7 +446,7 @@
     "support": null
   },
   {
-    "name": "jhin",
+    "identifier": "jhin",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -455,7 +455,7 @@
     "adc": "49.7%"
   },
   {
-    "name": "jinx",
+    "identifier": "jinx",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -464,7 +464,7 @@
     "adc": "52.1%"
   },
   {
-    "name": "ksante",
+    "identifier": "ksante",
     "top": "45.5%",
     "jungle": null,
     "mid": null,
@@ -472,7 +472,7 @@
     "support": null
   },
   {
-    "name": "kaisa",
+    "identifier": "kaisa",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -481,7 +481,7 @@
     "adc": "48.0%"
   },
   {
-    "name": "kalista",
+    "identifier": "kalista",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -490,7 +490,7 @@
     "adc": "47.3%"
   },
   {
-    "name": "karma",
+    "identifier": "karma",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -498,7 +498,7 @@
     "support": "50.7%"
   },
   {
-    "name": "karthus",
+    "identifier": "karthus",
     "top": null,
     "jungle": "48.8%",
     "mid": null,
@@ -506,7 +506,7 @@
     "support": null
   },
   {
-    "name": "kassadin",
+    "identifier": "kassadin",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -515,7 +515,7 @@
     "middle": "50.9%"
   },
   {
-    "name": "katarina",
+    "identifier": "katarina",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -524,7 +524,7 @@
     "middle": "49.5%"
   },
   {
-    "name": "kayle",
+    "identifier": "kayle",
     "top": "52.7%",
     "jungle": null,
     "mid": null,
@@ -532,7 +532,7 @@
     "support": null
   },
   {
-    "name": "kayn",
+    "identifier": "kayn",
     "top": null,
     "jungle": "50.0%",
     "mid": null,
@@ -540,7 +540,7 @@
     "support": null
   },
   {
-    "name": "kennen",
+    "identifier": "kennen",
     "top": "50.0%",
     "jungle": null,
     "mid": null,
@@ -548,7 +548,7 @@
     "support": null
   },
   {
-    "name": "khazix",
+    "identifier": "khazix",
     "top": null,
     "jungle": "48.7%",
     "mid": null,
@@ -556,7 +556,7 @@
     "support": null
   },
   {
-    "name": "kindred",
+    "identifier": "kindred",
     "top": null,
     "jungle": "49.5%",
     "mid": null,
@@ -564,7 +564,7 @@
     "support": null
   },
   {
-    "name": "kled",
+    "identifier": "kled",
     "top": "51.3%",
     "jungle": null,
     "mid": null,
@@ -572,7 +572,7 @@
     "support": null
   },
   {
-    "name": "kogmaw",
+    "identifier": "kogmaw",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -581,7 +581,7 @@
     "adc": "52.8%"
   },
   {
-    "name": "leblanc",
+    "identifier": "leblanc",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -590,7 +590,7 @@
     "middle": "49.1%"
   },
   {
-    "name": "leesin",
+    "identifier": "leesin",
     "top": null,
     "jungle": "48.7%",
     "mid": null,
@@ -598,7 +598,7 @@
     "support": null
   },
   {
-    "name": "leona",
+    "identifier": "leona",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -606,7 +606,7 @@
     "support": "49.5%"
   },
   {
-    "name": "lillia",
+    "identifier": "lillia",
     "top": null,
     "jungle": "49.7%",
     "mid": null,
@@ -614,7 +614,7 @@
     "support": null
   },
   {
-    "name": "lissandra",
+    "identifier": "lissandra",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -623,7 +623,7 @@
     "middle": "50.6%"
   },
   {
-    "name": "lucian",
+    "identifier": "lucian",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -632,7 +632,7 @@
     "adc": "49.7%"
   },
   {
-    "name": "lulu",
+    "identifier": "lulu",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -640,7 +640,7 @@
     "support": "51.2%"
   },
   {
-    "name": "lux",
+    "identifier": "lux",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -649,7 +649,7 @@
     "middle": "50.7%"
   },
   {
-    "name": "malphite",
+    "identifier": "malphite",
     "top": "51.8%",
     "jungle": null,
     "mid": null,
@@ -657,7 +657,7 @@
     "support": null
   },
   {
-    "name": "malzahar",
+    "identifier": "malzahar",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -666,7 +666,7 @@
     "middle": "51.4%"
   },
   {
-    "name": "maokai",
+    "identifier": "maokai",
     "top": "49.6%",
     "jungle": null,
     "mid": null,
@@ -674,7 +674,7 @@
     "support": "50.0%"
   },
   {
-    "name": "masteryi",
+    "identifier": "masteryi",
     "top": null,
     "jungle": "51.0%",
     "mid": null,
@@ -682,7 +682,7 @@
     "support": null
   },
   {
-    "name": "mel",
+    "identifier": "mel",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -691,7 +691,7 @@
     "middle": "46.5%"
   },
   {
-    "name": "milio",
+    "identifier": "milio",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -699,7 +699,7 @@
     "support": "51.9%"
   },
   {
-    "name": "missfortune",
+    "identifier": "missfortune",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -708,7 +708,7 @@
     "adc": "50.8%"
   },
   {
-    "name": "mordekaiser",
+    "identifier": "mordekaiser",
     "top": "51.1%",
     "jungle": null,
     "mid": null,
@@ -716,7 +716,7 @@
     "support": null
   },
   {
-    "name": "morgana",
+    "identifier": "morgana",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -724,7 +724,7 @@
     "support": "50.4%"
   },
   {
-    "name": "naafiri",
+    "identifier": "naafiri",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -733,7 +733,7 @@
     "middle": "51.8%"
   },
   {
-    "name": "nami",
+    "identifier": "nami",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -741,7 +741,7 @@
     "support": "51.7%"
   },
   {
-    "name": "nasus",
+    "identifier": "nasus",
     "top": "50.7%",
     "jungle": null,
     "mid": null,
@@ -749,7 +749,7 @@
     "support": null
   },
   {
-    "name": "nautilus",
+    "identifier": "nautilus",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -757,7 +757,7 @@
     "support": "49.0%"
   },
   {
-    "name": "neeko",
+    "identifier": "neeko",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -766,7 +766,7 @@
     "middle": "52.0%"
   },
   {
-    "name": "nidalee",
+    "identifier": "nidalee",
     "top": null,
     "jungle": "47.7%",
     "mid": null,
@@ -774,7 +774,7 @@
     "support": null
   },
   {
-    "name": "nilah",
+    "identifier": "nilah",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -783,7 +783,7 @@
     "adc": "53.4%"
   },
   {
-    "name": "nocturne",
+    "identifier": "nocturne",
     "top": null,
     "jungle": "51.5%",
     "mid": null,
@@ -791,7 +791,7 @@
     "support": null
   },
   {
-    "name": "nunu",
+    "identifier": "nunu",
     "top": null,
     "jungle": "51.4%",
     "mid": null,
@@ -799,7 +799,7 @@
     "support": null
   },
   {
-    "name": "olaf",
+    "identifier": "olaf",
     "top": "49.8%",
     "jungle": null,
     "mid": null,
@@ -807,7 +807,7 @@
     "support": null
   },
   {
-    "name": "orianna",
+    "identifier": "orianna",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -816,7 +816,7 @@
     "middle": "49.6%"
   },
   {
-    "name": "ornn",
+    "identifier": "ornn",
     "top": "51.8%",
     "jungle": null,
     "mid": null,
@@ -824,7 +824,7 @@
     "support": null
   },
   {
-    "name": "pantheon",
+    "identifier": "pantheon",
     "top": "50.0%",
     "jungle": "50.9%",
     "mid": null,
@@ -832,7 +832,7 @@
     "support": "49.7%"
   },
   {
-    "name": "poppy",
+    "identifier": "poppy",
     "top": "51.6%",
     "jungle": null,
     "mid": null,
@@ -840,7 +840,7 @@
     "support": "50.5%"
   },
   {
-    "name": "pyke",
+    "identifier": "pyke",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -848,7 +848,7 @@
     "support": "48.6%"
   },
   {
-    "name": "qiyana",
+    "identifier": "qiyana",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -857,7 +857,7 @@
     "middle": "49.6%"
   },
   {
-    "name": "quinn",
+    "identifier": "quinn",
     "top": "51.7%",
     "jungle": null,
     "mid": null,
@@ -866,7 +866,7 @@
     "middle": "52.8%"
   },
   {
-    "name": "rakan",
+    "identifier": "rakan",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -874,7 +874,7 @@
     "support": "49.7%"
   },
   {
-    "name": "rammus",
+    "identifier": "rammus",
     "top": null,
     "jungle": "49.8%",
     "mid": null,
@@ -882,7 +882,7 @@
     "support": null
   },
   {
-    "name": "reksai",
+    "identifier": "reksai",
     "top": null,
     "jungle": "50.0%",
     "mid": null,
@@ -890,7 +890,7 @@
     "support": null
   },
   {
-    "name": "rell",
+    "identifier": "rell",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -898,7 +898,7 @@
     "support": "50.2%"
   },
   {
-    "name": "renata",
+    "identifier": "renata",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -906,7 +906,7 @@
     "support": "49.6%"
   },
   {
-    "name": "renekton",
+    "identifier": "renekton",
     "top": "49.9%",
     "jungle": null,
     "mid": null,
@@ -914,7 +914,7 @@
     "support": null
   },
   {
-    "name": "rengar",
+    "identifier": "rengar",
     "top": null,
     "jungle": "47.0%",
     "mid": null,
@@ -922,7 +922,7 @@
     "support": null
   },
   {
-    "name": "riven",
+    "identifier": "riven",
     "top": "50.0%",
     "jungle": null,
     "mid": null,
@@ -930,7 +930,7 @@
     "support": null
   },
   {
-    "name": "rumble",
+    "identifier": "rumble",
     "top": "48.2%",
     "jungle": null,
     "mid": null,
@@ -938,7 +938,7 @@
     "support": null
   },
   {
-    "name": "ryze",
+    "identifier": "ryze",
     "top": "51.4%",
     "jungle": null,
     "mid": null,
@@ -947,7 +947,7 @@
     "middle": "50.9%"
   },
   {
-    "name": "samira",
+    "identifier": "samira",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -956,7 +956,7 @@
     "adc": "50.1%"
   },
   {
-    "name": "sejuani",
+    "identifier": "sejuani",
     "top": null,
     "jungle": "49.2%",
     "mid": null,
@@ -964,7 +964,7 @@
     "support": null
   },
   {
-    "name": "senna",
+    "identifier": "senna",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -972,7 +972,7 @@
     "support": "50.5%"
   },
   {
-    "name": "seraphine",
+    "identifier": "seraphine",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -980,7 +980,7 @@
     "support": "50.2%"
   },
   {
-    "name": "sett",
+    "identifier": "sett",
     "top": "52.0%",
     "jungle": null,
     "mid": null,
@@ -988,7 +988,7 @@
     "support": null
   },
   {
-    "name": "shaco",
+    "identifier": "shaco",
     "top": null,
     "jungle": "48.9%",
     "mid": null,
@@ -996,7 +996,7 @@
     "support": "50.3%"
   },
   {
-    "name": "shen",
+    "identifier": "shen",
     "top": "50.1%",
     "jungle": null,
     "mid": null,
@@ -1004,7 +1004,7 @@
     "support": null
   },
   {
-    "name": "shyvana",
+    "identifier": "shyvana",
     "top": null,
     "jungle": "51.4%",
     "mid": null,
@@ -1012,7 +1012,7 @@
     "support": null
   },
   {
-    "name": "singed",
+    "identifier": "singed",
     "top": "51.0%",
     "jungle": null,
     "mid": null,
@@ -1020,7 +1020,7 @@
     "support": null
   },
   {
-    "name": "sion",
+    "identifier": "sion",
     "top": "50.8%",
     "jungle": null,
     "mid": null,
@@ -1028,7 +1028,7 @@
     "support": null
   },
   {
-    "name": "sivir",
+    "identifier": "sivir",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1037,7 +1037,7 @@
     "adc": "51.8%"
   },
   {
-    "name": "skarner",
+    "identifier": "skarner",
     "top": null,
     "jungle": "44.1%",
     "mid": null,
@@ -1045,7 +1045,7 @@
     "support": null
   },
   {
-    "name": "smolder",
+    "identifier": "smolder",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1054,7 +1054,7 @@
     "adc": "48.7%"
   },
   {
-    "name": "sona",
+    "identifier": "sona",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1062,7 +1062,7 @@
     "support": "51.4%"
   },
   {
-    "name": "soraka",
+    "identifier": "soraka",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1070,7 +1070,7 @@
     "support": "51.6%"
   },
   {
-    "name": "swain",
+    "identifier": "swain",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1079,7 +1079,7 @@
     "middle": "51.9%"
   },
   {
-    "name": "sylas",
+    "identifier": "sylas",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1088,7 +1088,7 @@
     "middle": "49.4%"
   },
   {
-    "name": "syndra",
+    "identifier": "syndra",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1097,7 +1097,7 @@
     "middle": "50.4%"
   },
   {
-    "name": "tahmkench",
+    "identifier": "tahmkench",
     "top": "50.1%",
     "jungle": null,
     "mid": null,
@@ -1105,7 +1105,7 @@
     "support": "49.9%"
   },
   {
-    "name": "taliyah",
+    "identifier": "taliyah",
     "top": null,
     "jungle": "49.3%",
     "mid": null,
@@ -1114,7 +1114,7 @@
     "middle": "51.2%"
   },
   {
-    "name": "talon",
+    "identifier": "talon",
     "top": null,
     "jungle": "48.9%",
     "mid": null,
@@ -1123,7 +1123,7 @@
     "middle": "49.5%"
   },
   {
-    "name": "taric",
+    "identifier": "taric",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1131,7 +1131,7 @@
     "support": "52.3%"
   },
   {
-    "name": "teemo",
+    "identifier": "teemo",
     "top": "52.1%",
     "jungle": null,
     "mid": null,
@@ -1139,7 +1139,7 @@
     "support": null
   },
   {
-    "name": "thresh",
+    "identifier": "thresh",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1147,7 +1147,7 @@
     "support": "51.1%"
   },
   {
-    "name": "tristana",
+    "identifier": "tristana",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1156,7 +1156,7 @@
     "adc": "51.1%"
   },
   {
-    "name": "trundle",
+    "identifier": "trundle",
     "top": "49.8%",
     "jungle": "49.5%",
     "mid": null,
@@ -1164,7 +1164,7 @@
     "support": null
   },
   {
-    "name": "tryndamere",
+    "identifier": "tryndamere",
     "top": "49.5%",
     "jungle": null,
     "mid": null,
@@ -1172,7 +1172,7 @@
     "support": null
   },
   {
-    "name": "twistedfate",
+    "identifier": "twistedfate",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1181,7 +1181,7 @@
     "middle": "48.9%"
   },
   {
-    "name": "twitch",
+    "identifier": "twitch",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1190,7 +1190,7 @@
     "adc": "51.3%"
   },
   {
-    "name": "udyr",
+    "identifier": "udyr",
     "top": null,
     "jungle": "49.4%",
     "mid": null,
@@ -1198,7 +1198,7 @@
     "support": null
   },
   {
-    "name": "urgot",
+    "identifier": "urgot",
     "top": "52.3%",
     "jungle": null,
     "mid": null,
@@ -1206,7 +1206,7 @@
     "support": null
   },
   {
-    "name": "varus",
+    "identifier": "varus",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1215,7 +1215,7 @@
     "adc": "49.0%"
   },
   {
-    "name": "vayne",
+    "identifier": "vayne",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1224,7 +1224,7 @@
     "adc": "51.6%"
   },
   {
-    "name": "veigar",
+    "identifier": "veigar",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1233,7 +1233,7 @@
     "middle": "50.6%"
   },
   {
-    "name": "velkoz",
+    "identifier": "velkoz",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1242,7 +1242,7 @@
     "middle": "51.4%"
   },
   {
-    "name": "vex",
+    "identifier": "vex",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1251,7 +1251,7 @@
     "middle": "51.2%"
   },
   {
-    "name": "vi",
+    "identifier": "vi",
     "top": null,
     "jungle": "50.0%",
     "mid": null,
@@ -1259,7 +1259,7 @@
     "support": null
   },
   {
-    "name": "viego",
+    "identifier": "viego",
     "top": null,
     "jungle": "49.0%",
     "mid": null,
@@ -1267,7 +1267,7 @@
     "support": null
   },
   {
-    "name": "viktor",
+    "identifier": "viktor",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1276,7 +1276,7 @@
     "middle": "50.6%"
   },
   {
-    "name": "vladimir",
+    "identifier": "vladimir",
     "top": "49.4%",
     "jungle": null,
     "mid": null,
@@ -1285,7 +1285,7 @@
     "middle": "51.1%"
   },
   {
-    "name": "volibear",
+    "identifier": "volibear",
     "top": "49.8%",
     "jungle": "51.1%",
     "mid": null,
@@ -1293,7 +1293,7 @@
     "support": null
   },
   {
-    "name": "warwick",
+    "identifier": "warwick",
     "top": "51.5%",
     "jungle": "51.7%",
     "mid": null,
@@ -1301,7 +1301,7 @@
     "support": null
   },
   {
-    "name": "monkeyking",
+    "identifier": "monkeyking",
     "top": "51.6%",
     "jungle": "51.2%",
     "mid": null,
@@ -1309,7 +1309,7 @@
     "support": null
   },
   {
-    "name": "xayah",
+    "identifier": "xayah",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1318,7 +1318,7 @@
     "adc": "50.6%"
   },
   {
-    "name": "xerath",
+    "identifier": "xerath",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1327,7 +1327,7 @@
     "middle": "50.9%"
   },
   {
-    "name": "xinzhao",
+    "identifier": "xinzhao",
     "top": null,
     "jungle": "51.1%",
     "mid": null,
@@ -1335,7 +1335,7 @@
     "support": null
   },
   {
-    "name": "yasuo",
+    "identifier": "yasuo",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1344,7 +1344,7 @@
     "middle": "50.2%"
   },
   {
-    "name": "yone",
+    "identifier": "yone",
     "top": "47.5%",
     "jungle": null,
     "mid": null,
@@ -1353,7 +1353,7 @@
     "middle": "47.9%"
   },
   {
-    "name": "yorick",
+    "identifier": "yorick",
     "top": "51.4%",
     "jungle": "52.0%",
     "mid": null,
@@ -1361,7 +1361,7 @@
     "support": null
   },
   {
-    "name": "yuumi",
+    "identifier": "yuumi",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1369,7 +1369,7 @@
     "support": "51.1%"
   },
   {
-    "name": "zac",
+    "identifier": "zac",
     "top": null,
     "jungle": "49.3%",
     "mid": null,
@@ -1377,7 +1377,7 @@
     "support": null
   },
   {
-    "name": "zed",
+    "identifier": "zed",
     "top": null,
     "jungle": "49.3%",
     "mid": null,
@@ -1386,7 +1386,7 @@
     "middle": "49.2%"
   },
   {
-    "name": "zeri",
+    "identifier": "zeri",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1395,7 +1395,7 @@
     "adc": "50.0%"
   },
   {
-    "name": "ziggs",
+    "identifier": "ziggs",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1405,7 +1405,7 @@
     "middle": "47.5%"
   },
   {
-    "name": "zilean",
+    "identifier": "zilean",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1413,7 +1413,7 @@
     "support": "50.9%"
   },
   {
-    "name": "zoe",
+    "identifier": "zoe",
     "top": null,
     "jungle": null,
     "mid": null,
@@ -1422,7 +1422,7 @@
     "middle": "50.4%"
   },
   {
-    "name": "zyra",
+    "identifier": "zyra",
     "top": null,
     "jungle": "49.3%",
     "mid": null,
