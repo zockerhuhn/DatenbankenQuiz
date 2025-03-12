@@ -11,14 +11,14 @@ def start_browser():
   """
   global LoG
   options = webdriver.FirefoxOptions()
-  options.profile = FirefoxProfile("LeagueDatabank\\ttyzbxgh.default-release")
+  #options.profile = FirefoxProfile("LeagueDatabank\\ttyzbxgh.default-release") #comment this out for school computers, use for private computers to skip having to confirm cookies
   LoG = webdriver.Firefox(options)
   LoG.get("https://www.leagueofgraphs.com/champions/builds/by-champion-name")
 
 def get_championInfo():
     global LoG
     dictList = []
-    champsList = LoG.find_elements(by=By.XPATH, value="//div[@class ='txt']/span[@class ='name']|//div[@class ='txt']/i|//progressbar[@data-color='wggreen']/div[@class='progressBarTxt']")
+    champsList = LoG.find_elements(by=By.XPATH, value="//div[@class ='txt']/span[@class ='name']|//div[@class ='txt']/i|//progressbar[@data-color='wggreen']/div/div[@class='progressBarTxt']") #/div/div[@class='progressBarTxt'] is just /div[@class='progressBarTxt'] on non school computers because of outdated firefox
     for i in range(int(len(champsList)/3)):
       name = champsList[i*3].text.lower().replace(" ", "").replace("'", "").replace(".", "").replace("&willump", "").replace("glasc", "").replace("wukong", "monkeyking")
       roles = champsList[(i*3)+1].text.lower().replace("jungler", "jungle").replace("mid", "middle").replace("ad carry", "adc").replace(" ", "")
@@ -45,6 +45,7 @@ def get_winrates(): #https://www.leagueofgraphs.com/champions/builds/aatrox/top
       else:
         roles = [champ['roles']]
       winrateDict = {
+        "name": champ['name'],
         "top": None,
         "jungle": None,
         "mid": None,
@@ -54,7 +55,7 @@ def get_winrates(): #https://www.leagueofgraphs.com/champions/builds/aatrox/top
       for role in roles:
         role
         LoG.get(f"https://www.leagueofgraphs.com/champions/builds/{champ['name']}/{role}")
-        winrateDict[role] = LoG.find_elements(by=By.ID, value='graphDD1')[1].text
+        winrateDict[role] = LoG.find_element(by=By.ID, value='graphDD2').text
       winrates.append(winrateDict)
   with open('LeagueDatabank\\winrates.json', 'w') as winratesFile:
     json_obj = json.dumps(winrates, indent=2)
@@ -63,4 +64,4 @@ def get_winrates(): #https://www.leagueofgraphs.com/champions/builds/aatrox/top
 start_browser()
 get_championInfo()
 get_winrates()
-input()
+#input()
