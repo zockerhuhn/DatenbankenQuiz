@@ -1,0 +1,1432 @@
+[
+  {
+    "name": "aatrox",
+    "top": "50.3%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "ahri",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "51.1%"
+  },
+  {
+    "name": "akali",
+    "top": "49.8%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "49.4%"
+  },
+  {
+    "name": "akshan",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "50.6%"
+  },
+  {
+    "name": "alistar",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "49.6%"
+  },
+  {
+    "name": "ambessa",
+    "top": "47.7%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "amumu",
+    "top": null,
+    "jungle": "51.0%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "anivia",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "51.9%"
+  },
+  {
+    "name": "annie",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "53.2%"
+  },
+  {
+    "name": "aphelios",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "48.9%"
+  },
+  {
+    "name": "ashe",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "49.5%"
+  },
+  {
+    "name": "aurelionsol",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "51.4%"
+  },
+  {
+    "name": "aurora",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "48.4%"
+  },
+  {
+    "name": "azir",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "47.8%"
+  },
+  {
+    "name": "bard",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.5%"
+  },
+  {
+    "name": "belveth",
+    "top": null,
+    "jungle": "49.6%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "blitzcrank",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "48.1%"
+  },
+  {
+    "name": "brand",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.3%"
+  },
+  {
+    "name": "braum",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "52.0%"
+  },
+  {
+    "name": "briar",
+    "top": null,
+    "jungle": "51.1%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "caitlyn",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "49.5%"
+  },
+  {
+    "name": "camille",
+    "top": "50.5%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "cassiopeia",
+    "top": "51.4%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "51.9%"
+  },
+  {
+    "name": "chogath",
+    "top": "50.2%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "51.9%"
+  },
+  {
+    "name": "corki",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "49.6%"
+  },
+  {
+    "name": "darius",
+    "top": "50.8%",
+    "jungle": "54.5%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "diana",
+    "top": null,
+    "jungle": "50.9%",
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "51.4%"
+  },
+  {
+    "name": "drmundo",
+    "top": "50.3%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "draven",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "48.9%"
+  },
+  {
+    "name": "ekko",
+    "top": null,
+    "jungle": "49.8%",
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "50.7%"
+  },
+  {
+    "name": "elise",
+    "top": null,
+    "jungle": "48.9%",
+    "mid": null,
+    "bot": null,
+    "support": "49.9%"
+  },
+  {
+    "name": "evelynn",
+    "top": null,
+    "jungle": "49.8%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "ezreal",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "49.0%"
+  },
+  {
+    "name": "fiddlesticks",
+    "top": null,
+    "jungle": "51.1%",
+    "mid": null,
+    "bot": null,
+    "support": "52.1%"
+  },
+  {
+    "name": "fiora",
+    "top": "49.1%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "fizz",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "49.8%"
+  },
+  {
+    "name": "galio",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "51.0%"
+  },
+  {
+    "name": "gangplank",
+    "top": "47.9%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "garen",
+    "top": "50.9%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "gnar",
+    "top": "49.2%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "gragas",
+    "top": "50.1%",
+    "jungle": "47.2%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "graves",
+    "top": null,
+    "jungle": "49.8%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "gwen",
+    "top": "50.0%",
+    "jungle": "50.0%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "hecarim",
+    "top": null,
+    "jungle": "49.4%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "heimerdinger",
+    "top": "50.6%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "hwei",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "49.6%"
+  },
+  {
+    "name": "illaoi",
+    "top": "49.7%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "irelia",
+    "top": "50.8%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "50.1%"
+  },
+  {
+    "name": "ivern",
+    "top": null,
+    "jungle": "49.0%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "janna",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.8%"
+  },
+  {
+    "name": "jarvaniv",
+    "top": null,
+    "jungle": "51.2%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "jax",
+    "top": "49.1%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "jayce",
+    "top": "48.6%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "jhin",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "49.7%"
+  },
+  {
+    "name": "jinx",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "52.1%"
+  },
+  {
+    "name": "ksante",
+    "top": "45.5%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "kaisa",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "48.0%"
+  },
+  {
+    "name": "kalista",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "47.3%"
+  },
+  {
+    "name": "karma",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.7%"
+  },
+  {
+    "name": "karthus",
+    "top": null,
+    "jungle": "48.8%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "kassadin",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "50.9%"
+  },
+  {
+    "name": "katarina",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "49.5%"
+  },
+  {
+    "name": "kayle",
+    "top": "52.7%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "kayn",
+    "top": null,
+    "jungle": "50.0%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "kennen",
+    "top": "50.0%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "khazix",
+    "top": null,
+    "jungle": "48.7%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "kindred",
+    "top": null,
+    "jungle": "49.5%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "kled",
+    "top": "51.3%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "kogmaw",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "52.8%"
+  },
+  {
+    "name": "leblanc",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "49.1%"
+  },
+  {
+    "name": "leesin",
+    "top": null,
+    "jungle": "48.7%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "leona",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "49.5%"
+  },
+  {
+    "name": "lillia",
+    "top": null,
+    "jungle": "49.7%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "lissandra",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "50.6%"
+  },
+  {
+    "name": "lucian",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "49.7%"
+  },
+  {
+    "name": "lulu",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "51.2%"
+  },
+  {
+    "name": "lux",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "48.4%",
+    "middle": "50.7%"
+  },
+  {
+    "name": "malphite",
+    "top": "51.8%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "malzahar",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "51.4%"
+  },
+  {
+    "name": "maokai",
+    "top": "49.6%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.0%"
+  },
+  {
+    "name": "masteryi",
+    "top": null,
+    "jungle": "51.0%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "mel",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "44.8%",
+    "middle": "46.5%"
+  },
+  {
+    "name": "milio",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "51.9%"
+  },
+  {
+    "name": "missfortune",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "50.8%"
+  },
+  {
+    "name": "mordekaiser",
+    "top": "51.1%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "morgana",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.4%"
+  },
+  {
+    "name": "naafiri",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "51.8%"
+  },
+  {
+    "name": "nami",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "51.7%"
+  },
+  {
+    "name": "nasus",
+    "top": "50.7%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "nautilus",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "49.0%"
+  },
+  {
+    "name": "neeko",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.0%",
+    "middle": "52.0%"
+  },
+  {
+    "name": "nidalee",
+    "top": null,
+    "jungle": "47.7%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "nilah",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "53.4%"
+  },
+  {
+    "name": "nocturne",
+    "top": null,
+    "jungle": "51.5%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "nunu",
+    "top": null,
+    "jungle": "51.4%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "olaf",
+    "top": "49.8%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "orianna",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "49.6%"
+  },
+  {
+    "name": "ornn",
+    "top": "51.8%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "pantheon",
+    "top": "50.0%",
+    "jungle": "50.9%",
+    "mid": null,
+    "bot": null,
+    "support": "49.7%"
+  },
+  {
+    "name": "poppy",
+    "top": "51.6%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.5%"
+  },
+  {
+    "name": "pyke",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "48.6%"
+  },
+  {
+    "name": "qiyana",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "49.6%"
+  },
+  {
+    "name": "quinn",
+    "top": "51.7%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "52.8%"
+  },
+  {
+    "name": "rakan",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "49.7%"
+  },
+  {
+    "name": "rammus",
+    "top": null,
+    "jungle": "49.8%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "reksai",
+    "top": null,
+    "jungle": "50.0%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "rell",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.2%"
+  },
+  {
+    "name": "renata",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "49.6%"
+  },
+  {
+    "name": "renekton",
+    "top": "49.9%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "rengar",
+    "top": null,
+    "jungle": "47.0%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "riven",
+    "top": "50.0%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "rumble",
+    "top": "48.2%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "ryze",
+    "top": "51.4%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "50.9%"
+  },
+  {
+    "name": "samira",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "50.1%"
+  },
+  {
+    "name": "sejuani",
+    "top": null,
+    "jungle": "49.2%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "senna",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.5%"
+  },
+  {
+    "name": "seraphine",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.2%"
+  },
+  {
+    "name": "sett",
+    "top": "52.0%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "shaco",
+    "top": null,
+    "jungle": "48.9%",
+    "mid": null,
+    "bot": null,
+    "support": "50.3%"
+  },
+  {
+    "name": "shen",
+    "top": "50.1%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "shyvana",
+    "top": null,
+    "jungle": "51.4%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "singed",
+    "top": "51.0%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "sion",
+    "top": "50.8%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "sivir",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "51.8%"
+  },
+  {
+    "name": "skarner",
+    "top": null,
+    "jungle": "44.1%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "smolder",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "48.7%"
+  },
+  {
+    "name": "sona",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "51.4%"
+  },
+  {
+    "name": "soraka",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "51.6%"
+  },
+  {
+    "name": "swain",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "48.9%",
+    "middle": "51.9%"
+  },
+  {
+    "name": "sylas",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "49.4%"
+  },
+  {
+    "name": "syndra",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "50.4%"
+  },
+  {
+    "name": "tahmkench",
+    "top": "50.1%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "49.9%"
+  },
+  {
+    "name": "taliyah",
+    "top": null,
+    "jungle": "49.3%",
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "51.2%"
+  },
+  {
+    "name": "talon",
+    "top": null,
+    "jungle": "48.9%",
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "49.5%"
+  },
+  {
+    "name": "taric",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "52.3%"
+  },
+  {
+    "name": "teemo",
+    "top": "52.1%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "thresh",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "51.1%"
+  },
+  {
+    "name": "tristana",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "51.1%"
+  },
+  {
+    "name": "trundle",
+    "top": "49.8%",
+    "jungle": "49.5%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "tryndamere",
+    "top": "49.5%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "twistedfate",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "48.9%"
+  },
+  {
+    "name": "twitch",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "51.3%"
+  },
+  {
+    "name": "udyr",
+    "top": null,
+    "jungle": "49.4%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "urgot",
+    "top": "52.3%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "varus",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "49.0%"
+  },
+  {
+    "name": "vayne",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "51.6%"
+  },
+  {
+    "name": "veigar",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "50.6%"
+  },
+  {
+    "name": "velkoz",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.7%",
+    "middle": "51.4%"
+  },
+  {
+    "name": "vex",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "51.2%"
+  },
+  {
+    "name": "vi",
+    "top": null,
+    "jungle": "50.0%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "viego",
+    "top": null,
+    "jungle": "49.0%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "viktor",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "50.6%"
+  },
+  {
+    "name": "vladimir",
+    "top": "49.4%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "51.1%"
+  },
+  {
+    "name": "volibear",
+    "top": "49.8%",
+    "jungle": "51.1%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "warwick",
+    "top": "51.5%",
+    "jungle": "51.7%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "monkeyking",
+    "top": "51.6%",
+    "jungle": "51.2%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "xayah",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "50.6%"
+  },
+  {
+    "name": "xerath",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "49.9%",
+    "middle": "50.9%"
+  },
+  {
+    "name": "xinzhao",
+    "top": null,
+    "jungle": "51.1%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "yasuo",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "50.2%"
+  },
+  {
+    "name": "yone",
+    "top": "47.5%",
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "47.9%"
+  },
+  {
+    "name": "yorick",
+    "top": "51.4%",
+    "jungle": "52.0%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "yuumi",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "51.1%"
+  },
+  {
+    "name": "zac",
+    "top": null,
+    "jungle": "49.3%",
+    "mid": null,
+    "bot": null,
+    "support": null
+  },
+  {
+    "name": "zed",
+    "top": null,
+    "jungle": "49.3%",
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": "49.2%"
+  },
+  {
+    "name": "zeri",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "50.0%"
+  },
+  {
+    "name": "ziggs",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "adc": "50.9%",
+    "middle": "47.5%"
+  },
+  {
+    "name": "zilean",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "50.9%"
+  },
+  {
+    "name": "zoe",
+    "top": null,
+    "jungle": null,
+    "mid": null,
+    "bot": null,
+    "support": "48.2%",
+    "middle": "50.4%"
+  },
+  {
+    "name": "zyra",
+    "top": null,
+    "jungle": "49.3%",
+    "mid": null,
+    "bot": null,
+    "support": "51.0%"
+  }
+]

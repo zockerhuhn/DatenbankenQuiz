@@ -1,852 +1,852 @@
 [
   {
-    "name": "Aatrox",
-    "roles": "Top",
+    "name": "aatrox",
+    "roles": "top",
     "Winrate": "50.2%"
   },
   {
-    "name": "Ahri",
-    "roles": "Mid",
+    "name": "ahri",
+    "roles": "middle",
     "Winrate": "51.0%"
   },
   {
-    "name": "Akali",
-    "roles": "Mid, Top",
+    "name": "akali",
+    "roles": "middle,top",
     "Winrate": "49.5%"
   },
   {
-    "name": "Akshan",
-    "roles": "Mid",
+    "name": "akshan",
+    "roles": "middle",
     "Winrate": "50.4%"
   },
   {
-    "name": "Alistar",
-    "roles": "Support",
+    "name": "alistar",
+    "roles": "support",
     "Winrate": "49.5%"
   },
   {
-    "name": "Ambessa",
-    "roles": "Top",
+    "name": "ambessa",
+    "roles": "top",
     "Winrate": "47.6%"
   },
   {
-    "name": "Amumu",
-    "roles": "Jungler",
+    "name": "amumu",
+    "roles": "jungle",
     "Winrate": "50.8%"
   },
   {
-    "name": "Anivia",
-    "roles": "Mid",
+    "name": "anivia",
+    "roles": "middle",
     "Winrate": "51.4%"
   },
   {
-    "name": "Annie",
-    "roles": "Mid",
+    "name": "annie",
+    "roles": "middle",
     "Winrate": "52.2%"
   },
   {
-    "name": "Aphelios",
-    "roles": "AD Carry",
+    "name": "aphelios",
+    "roles": "adc",
     "Winrate": "48.9%"
   },
   {
-    "name": "Ashe",
-    "roles": "AD Carry",
+    "name": "ashe",
+    "roles": "adc",
     "Winrate": "49.1%"
   },
   {
-    "name": "Aurelion Sol",
-    "roles": "Mid",
+    "name": "aurelionsol",
+    "roles": "middle",
     "Winrate": "51.4%"
   },
   {
-    "name": "Aurora",
-    "roles": "Mid",
+    "name": "aurora",
+    "roles": "middle",
     "Winrate": "48.4%"
   },
   {
-    "name": "Azir",
-    "roles": "Mid",
+    "name": "azir",
+    "roles": "middle",
     "Winrate": "47.9%"
   },
   {
-    "name": "Bard",
-    "roles": "Support",
+    "name": "bard",
+    "roles": "support",
     "Winrate": "50.3%"
   },
   {
-    "name": "Bel'Veth",
-    "roles": "Jungler",
+    "name": "belveth",
+    "roles": "jungle",
     "Winrate": "49.4%"
   },
   {
-    "name": "Blitzcrank",
-    "roles": "Support",
+    "name": "blitzcrank",
+    "roles": "support",
     "Winrate": "48.0%"
   },
   {
-    "name": "Brand",
-    "roles": "Support",
+    "name": "brand",
+    "roles": "support",
     "Winrate": "50.0%"
   },
   {
-    "name": "Braum",
-    "roles": "Support",
+    "name": "braum",
+    "roles": "support",
     "Winrate": "51.9%"
   },
   {
-    "name": "Briar",
-    "roles": "Jungler",
+    "name": "briar",
+    "roles": "jungle",
     "Winrate": "50.8%"
   },
   {
-    "name": "Caitlyn",
-    "roles": "AD Carry",
+    "name": "caitlyn",
+    "roles": "adc",
     "Winrate": "49.4%"
   },
   {
-    "name": "Camille",
-    "roles": "Top",
+    "name": "camille",
+    "roles": "top",
     "Winrate": "50.2%"
   },
   {
-    "name": "Cassiopeia",
-    "roles": "Mid, Top",
+    "name": "cassiopeia",
+    "roles": "middle,top",
     "Winrate": "51.8%"
   },
   {
-    "name": "Cho'Gath",
-    "roles": "Top, Mid",
+    "name": "chogath",
+    "roles": "top,middle",
     "Winrate": "50.4%"
   },
   {
-    "name": "Corki",
-    "roles": "AD Carry",
+    "name": "corki",
+    "roles": "adc",
     "Winrate": "49.5%"
   },
   {
-    "name": "Darius",
-    "roles": "Jungler, Top",
+    "name": "darius",
+    "roles": "jungle,top",
     "Winrate": "53.3%"
   },
   {
-    "name": "Diana",
-    "roles": "Jungler, Mid",
+    "name": "diana",
+    "roles": "jungle,middle",
     "Winrate": "51.0%"
   },
   {
-    "name": "Dr. Mundo",
-    "roles": "Top",
+    "name": "drmundo",
+    "roles": "top",
     "Winrate": "50.3%"
   },
   {
-    "name": "Draven",
-    "roles": "AD Carry",
+    "name": "draven",
+    "roles": "adc",
     "Winrate": "48.8%"
   },
   {
-    "name": "Ekko",
-    "roles": "Jungler, Mid",
+    "name": "ekko",
+    "roles": "jungle,middle",
     "Winrate": "50.1%"
   },
   {
-    "name": "Elise",
-    "roles": "Jungler, Support",
+    "name": "elise",
+    "roles": "jungle,support",
     "Winrate": "49.3%"
   },
   {
-    "name": "Evelynn",
-    "roles": "Jungler",
+    "name": "evelynn",
+    "roles": "jungle",
     "Winrate": "49.8%"
   },
   {
-    "name": "Ezreal",
-    "roles": "AD Carry",
+    "name": "ezreal",
+    "roles": "adc",
     "Winrate": "48.7%"
   },
   {
-    "name": "Fiddlesticks",
-    "roles": "Jungler, Support",
+    "name": "fiddlesticks",
+    "roles": "jungle,support",
     "Winrate": "51.4%"
   },
   {
-    "name": "Fiora",
-    "roles": "Top",
+    "name": "fiora",
+    "roles": "top",
     "Winrate": "49.1%"
   },
   {
-    "name": "Fizz",
-    "roles": "Mid",
+    "name": "fizz",
+    "roles": "middle",
     "Winrate": "49.6%"
   },
   {
-    "name": "Galio",
-    "roles": "Mid",
+    "name": "galio",
+    "roles": "middle",
     "Winrate": "50.6%"
   },
   {
-    "name": "Gangplank",
-    "roles": "Top",
+    "name": "gangplank",
+    "roles": "top",
     "Winrate": "47.9%"
   },
   {
-    "name": "Garen",
-    "roles": "Top",
+    "name": "garen",
+    "roles": "top",
     "Winrate": "50.7%"
   },
   {
-    "name": "Gnar",
-    "roles": "Top",
+    "name": "gnar",
+    "roles": "top",
     "Winrate": "49.1%"
   },
   {
-    "name": "Gragas",
-    "roles": "Top, Jungler",
+    "name": "gragas",
+    "roles": "top,jungle",
     "Winrate": "49.2%"
   },
   {
-    "name": "Graves",
-    "roles": "Jungler",
+    "name": "graves",
+    "roles": "jungle",
     "Winrate": "49.7%"
   },
   {
-    "name": "Gwen",
-    "roles": "Top, Jungler",
+    "name": "gwen",
+    "roles": "top,jungle",
     "Winrate": "50.0%"
   },
   {
-    "name": "Hecarim",
-    "roles": "Jungler",
+    "name": "hecarim",
+    "roles": "jungle",
     "Winrate": "49.3%"
   },
   {
-    "name": "Heimerdinger",
-    "roles": "Top",
+    "name": "heimerdinger",
+    "roles": "top",
     "Winrate": "50.4%"
   },
   {
-    "name": "Hwei",
-    "roles": "Mid",
+    "name": "hwei",
+    "roles": "middle",
     "Winrate": "49.6%"
   },
   {
-    "name": "Illaoi",
-    "roles": "Top",
+    "name": "illaoi",
+    "roles": "top",
     "Winrate": "49.6%"
   },
   {
-    "name": "Irelia",
-    "roles": "Top, Mid",
+    "name": "irelia",
+    "roles": "top,middle",
     "Winrate": "50.4%"
   },
   {
-    "name": "Ivern",
-    "roles": "Jungler",
+    "name": "ivern",
+    "roles": "jungle",
     "Winrate": "48.5%"
   },
   {
-    "name": "Janna",
-    "roles": "Support",
+    "name": "janna",
+    "roles": "support",
     "Winrate": "50.7%"
   },
   {
-    "name": "Jarvan IV",
-    "roles": "Jungler",
+    "name": "jarvaniv",
+    "roles": "jungle",
     "Winrate": "51.0%"
   },
   {
-    "name": "Jax",
-    "roles": "Top",
+    "name": "jax",
+    "roles": "top",
     "Winrate": "49.0%"
   },
   {
-    "name": "Jayce",
-    "roles": "Top",
+    "name": "jayce",
+    "roles": "top",
     "Winrate": "48.5%"
   },
   {
-    "name": "Jhin",
-    "roles": "AD Carry",
+    "name": "jhin",
+    "roles": "adc",
     "Winrate": "49.6%"
   },
   {
-    "name": "Jinx",
-    "roles": "AD Carry",
+    "name": "jinx",
+    "roles": "adc",
     "Winrate": "52.1%"
   },
   {
-    "name": "K'Sante",
-    "roles": "Top",
+    "name": "ksante",
+    "roles": "top",
     "Winrate": "45.5%"
   },
   {
-    "name": "Kai'Sa",
-    "roles": "AD Carry",
+    "name": "kaisa",
+    "roles": "adc",
     "Winrate": "47.9%"
   },
   {
-    "name": "Kalista",
-    "roles": "AD Carry",
+    "name": "kalista",
+    "roles": "adc",
     "Winrate": "46.9%"
   },
   {
-    "name": "Karma",
-    "roles": "Support",
+    "name": "karma",
+    "roles": "support",
     "Winrate": "50.6%"
   },
   {
-    "name": "Karthus",
-    "roles": "Jungler",
+    "name": "karthus",
+    "roles": "jungle",
     "Winrate": "48.9%"
   },
   {
-    "name": "Kassadin",
-    "roles": "Mid",
+    "name": "kassadin",
+    "roles": "middle",
     "Winrate": "50.5%"
   },
   {
-    "name": "Katarina",
-    "roles": "Mid",
+    "name": "katarina",
+    "roles": "middle",
     "Winrate": "49.4%"
   },
   {
-    "name": "Kayle",
-    "roles": "Top",
+    "name": "kayle",
+    "roles": "top",
     "Winrate": "52.7%"
   },
   {
-    "name": "Kayn",
-    "roles": "Jungler",
+    "name": "kayn",
+    "roles": "jungle",
     "Winrate": "49.9%"
   },
   {
-    "name": "Kennen",
-    "roles": "Top",
+    "name": "kennen",
+    "roles": "top",
     "Winrate": "50.3%"
   },
   {
-    "name": "Kha'Zix",
-    "roles": "Jungler",
+    "name": "khazix",
+    "roles": "jungle",
     "Winrate": "48.6%"
   },
   {
-    "name": "Kindred",
-    "roles": "Jungler",
+    "name": "kindred",
+    "roles": "jungle",
     "Winrate": "49.4%"
   },
   {
-    "name": "Kled",
-    "roles": "Top",
+    "name": "kled",
+    "roles": "top",
     "Winrate": "51.1%"
   },
   {
-    "name": "Kog'Maw",
-    "roles": "AD Carry",
+    "name": "kogmaw",
+    "roles": "adc",
     "Winrate": "52.4%"
   },
   {
-    "name": "LeBlanc",
-    "roles": "Mid",
+    "name": "leblanc",
+    "roles": "middle",
     "Winrate": "49.1%"
   },
   {
-    "name": "Lee Sin",
-    "roles": "Jungler",
+    "name": "leesin",
+    "roles": "jungle",
     "Winrate": "48.4%"
   },
   {
-    "name": "Leona",
-    "roles": "Support",
+    "name": "leona",
+    "roles": "support",
     "Winrate": "49.4%"
   },
   {
-    "name": "Lillia",
-    "roles": "Jungler",
+    "name": "lillia",
+    "roles": "jungle",
     "Winrate": "49.5%"
   },
   {
-    "name": "Lissandra",
-    "roles": "Mid",
+    "name": "lissandra",
+    "roles": "middle",
     "Winrate": "50.6%"
   },
   {
-    "name": "Lucian",
-    "roles": "AD Carry",
+    "name": "lucian",
+    "roles": "adc",
     "Winrate": "49.3%"
   },
   {
-    "name": "Lulu",
-    "roles": "Support",
+    "name": "lulu",
+    "roles": "support",
     "Winrate": "51.1%"
   },
   {
-    "name": "Lux",
-    "roles": "Support, Mid",
+    "name": "lux",
+    "roles": "support,middle",
     "Winrate": "49.4%"
   },
   {
-    "name": "Malphite",
-    "roles": "Top",
+    "name": "malphite",
+    "roles": "top",
     "Winrate": "51.0%"
   },
   {
-    "name": "Malzahar",
-    "roles": "Mid",
+    "name": "malzahar",
+    "roles": "middle",
     "Winrate": "51.1%"
   },
   {
-    "name": "Maokai",
-    "roles": "Support, Top",
+    "name": "maokai",
+    "roles": "support,top",
     "Winrate": "49.5%"
   },
   {
-    "name": "Master Yi",
-    "roles": "Jungler",
+    "name": "masteryi",
+    "roles": "jungle",
     "Winrate": "50.8%"
   },
   {
-    "name": "Mel",
-    "roles": "Mid, Support",
+    "name": "mel",
+    "roles": "middle,support",
     "Winrate": "46.4%"
   },
   {
-    "name": "Milio",
-    "roles": "Support",
+    "name": "milio",
+    "roles": "support",
     "Winrate": "51.8%"
   },
   {
-    "name": "Miss Fortune",
-    "roles": "AD Carry",
+    "name": "missfortune",
+    "roles": "adc",
     "Winrate": "50.4%"
   },
   {
-    "name": "Mordekaiser",
-    "roles": "Top",
+    "name": "mordekaiser",
+    "roles": "top",
     "Winrate": "50.9%"
   },
   {
-    "name": "Morgana",
-    "roles": "Support",
+    "name": "morgana",
+    "roles": "support",
     "Winrate": "50.1%"
   },
   {
-    "name": "Naafiri",
-    "roles": "Mid",
+    "name": "naafiri",
+    "roles": "middle",
     "Winrate": "51.0%"
   },
   {
-    "name": "Nami",
-    "roles": "Support",
+    "name": "nami",
+    "roles": "support",
     "Winrate": "51.6%"
   },
   {
-    "name": "Nasus",
-    "roles": "Top",
+    "name": "nasus",
+    "roles": "top",
     "Winrate": "50.5%"
   },
   {
-    "name": "Nautilus",
-    "roles": "Support",
+    "name": "nautilus",
+    "roles": "support",
     "Winrate": "48.9%"
   },
   {
-    "name": "Neeko",
-    "roles": "Support, Mid",
+    "name": "neeko",
+    "roles": "support,middle",
     "Winrate": "50.6%"
   },
   {
-    "name": "Nidalee",
-    "roles": "Jungler",
+    "name": "nidalee",
+    "roles": "jungle",
     "Winrate": "47.6%"
   },
   {
-    "name": "Nilah",
-    "roles": "AD Carry",
+    "name": "nilah",
+    "roles": "adc",
     "Winrate": "53.3%"
   },
   {
-    "name": "Nocturne",
-    "roles": "Jungler",
+    "name": "nocturne",
+    "roles": "jungle",
     "Winrate": "51.4%"
   },
   {
-    "name": "Nunu & Willump",
-    "roles": "Jungler",
+    "name": "nunu",
+    "roles": "jungle",
     "Winrate": "50.6%"
   },
   {
-    "name": "Olaf",
-    "roles": "Top",
+    "name": "olaf",
+    "roles": "top",
     "Winrate": "50.0%"
   },
   {
-    "name": "Orianna",
-    "roles": "Mid",
+    "name": "orianna",
+    "roles": "middle",
     "Winrate": "49.5%"
   },
   {
-    "name": "Ornn",
-    "roles": "Top",
+    "name": "ornn",
+    "roles": "top",
     "Winrate": "51.6%"
   },
   {
-    "name": "Pantheon",
-    "roles": "Jungler, Support, Top",
+    "name": "pantheon",
+    "roles": "jungle,support,top",
     "Winrate": "50.3%"
   },
   {
-    "name": "Poppy",
-    "roles": "Support, Top",
+    "name": "poppy",
+    "roles": "support,top",
     "Winrate": "50.6%"
   },
   {
-    "name": "Pyke",
-    "roles": "Support",
+    "name": "pyke",
+    "roles": "support",
     "Winrate": "48.6%"
   },
   {
-    "name": "Qiyana",
-    "roles": "Mid",
+    "name": "qiyana",
+    "roles": "middle",
     "Winrate": "49.3%"
   },
   {
-    "name": "Quinn",
-    "roles": "Top, Mid",
+    "name": "quinn",
+    "roles": "top,middle",
     "Winrate": "51.6%"
   },
   {
-    "name": "Rakan",
-    "roles": "Support",
+    "name": "rakan",
+    "roles": "support",
     "Winrate": "49.7%"
   },
   {
-    "name": "Rammus",
-    "roles": "Jungler",
+    "name": "rammus",
+    "roles": "jungle",
     "Winrate": "49.8%"
   },
   {
-    "name": "Rek'Sai",
-    "roles": "Jungler",
+    "name": "reksai",
+    "roles": "jungle",
     "Winrate": "50.2%"
   },
   {
-    "name": "Rell",
-    "roles": "Support",
+    "name": "rell",
+    "roles": "support",
     "Winrate": "50.1%"
   },
   {
-    "name": "Renata Glasc",
-    "roles": "Support",
+    "name": "renata",
+    "roles": "support",
     "Winrate": "48.4%"
   },
   {
-    "name": "Renekton",
-    "roles": "Top",
+    "name": "renekton",
+    "roles": "top",
     "Winrate": "49.9%"
   },
   {
-    "name": "Rengar",
-    "roles": "Jungler",
+    "name": "rengar",
+    "roles": "jungle",
     "Winrate": "47.2%"
   },
   {
-    "name": "Riven",
-    "roles": "Top",
+    "name": "riven",
+    "roles": "top",
     "Winrate": "49.9%"
   },
   {
-    "name": "Rumble",
-    "roles": "Top",
+    "name": "rumble",
+    "roles": "top",
     "Winrate": "48.4%"
   },
   {
-    "name": "Ryze",
-    "roles": "Mid, Top",
+    "name": "ryze",
+    "roles": "middle,top",
     "Winrate": "50.9%"
   },
   {
-    "name": "Samira",
-    "roles": "AD Carry",
+    "name": "samira",
+    "roles": "adc",
     "Winrate": "49.9%"
   },
   {
-    "name": "Sejuani",
-    "roles": "Jungler",
+    "name": "sejuani",
+    "roles": "jungle",
     "Winrate": "49.1%"
   },
   {
-    "name": "Senna",
-    "roles": "Support",
+    "name": "senna",
+    "roles": "support",
     "Winrate": "50.3%"
   },
   {
-    "name": "Seraphine",
-    "roles": "Support",
+    "name": "seraphine",
+    "roles": "support",
     "Winrate": "50.5%"
   },
   {
-    "name": "Sett",
-    "roles": "Top",
+    "name": "sett",
+    "roles": "top",
     "Winrate": "51.9%"
   },
   {
-    "name": "Shaco",
-    "roles": "Jungler, Support",
+    "name": "shaco",
+    "roles": "jungle,support",
     "Winrate": "49.0%"
   },
   {
-    "name": "Shen",
-    "roles": "Top",
+    "name": "shen",
+    "roles": "top",
     "Winrate": "49.8%"
   },
   {
-    "name": "Shyvana",
-    "roles": "Jungler",
+    "name": "shyvana",
+    "roles": "jungle",
     "Winrate": "51.0%"
   },
   {
-    "name": "Singed",
-    "roles": "Top",
+    "name": "singed",
+    "roles": "top",
     "Winrate": "50.6%"
   },
   {
-    "name": "Sion",
-    "roles": "Top",
+    "name": "sion",
+    "roles": "top",
     "Winrate": "50.6%"
   },
   {
-    "name": "Sivir",
-    "roles": "AD Carry",
+    "name": "sivir",
+    "roles": "adc",
     "Winrate": "51.7%"
   },
   {
-    "name": "Skarner",
-    "roles": "Jungler",
+    "name": "skarner",
+    "roles": "jungle",
     "Winrate": "44.1%"
   },
   {
-    "name": "Smolder",
-    "roles": "AD Carry",
+    "name": "smolder",
+    "roles": "adc",
     "Winrate": "47.5%"
   },
   {
-    "name": "Sona",
-    "roles": "Support",
+    "name": "sona",
+    "roles": "support",
     "Winrate": "51.2%"
   },
   {
-    "name": "Soraka",
-    "roles": "Support",
+    "name": "soraka",
+    "roles": "support",
     "Winrate": "51.4%"
   },
   {
-    "name": "Swain",
-    "roles": "Support, Mid",
+    "name": "swain",
+    "roles": "support,middle",
     "Winrate": "50.4%"
   },
   {
-    "name": "Sylas",
-    "roles": "Mid",
+    "name": "sylas",
+    "roles": "middle",
     "Winrate": "49.0%"
   },
   {
-    "name": "Syndra",
-    "roles": "Mid",
+    "name": "syndra",
+    "roles": "middle",
     "Winrate": "50.4%"
   },
   {
-    "name": "Tahm Kench",
-    "roles": "Support, Top",
+    "name": "tahmkench",
+    "roles": "support,top",
     "Winrate": "50.1%"
   },
   {
-    "name": "Taliyah",
-    "roles": "Mid, Jungler",
+    "name": "taliyah",
+    "roles": "middle,jungle",
     "Winrate": "50.5%"
   },
   {
-    "name": "Talon",
-    "roles": "Jungler, Mid",
+    "name": "talon",
+    "roles": "jungle,middle",
     "Winrate": "49.1%"
   },
   {
-    "name": "Taric",
-    "roles": "Support",
+    "name": "taric",
+    "roles": "support",
     "Winrate": "52.0%"
   },
   {
-    "name": "Teemo",
-    "roles": "Top",
+    "name": "teemo",
+    "roles": "top",
     "Winrate": "51.1%"
   },
   {
-    "name": "Thresh",
-    "roles": "Support",
+    "name": "thresh",
+    "roles": "support",
     "Winrate": "51.0%"
   },
   {
-    "name": "Tristana",
-    "roles": "AD Carry",
+    "name": "tristana",
+    "roles": "adc",
     "Winrate": "50.7%"
   },
   {
-    "name": "Trundle",
-    "roles": "Top, Jungler",
+    "name": "trundle",
+    "roles": "top,jungle",
     "Winrate": "49.6%"
   },
   {
-    "name": "Tryndamere",
-    "roles": "Top",
+    "name": "tryndamere",
+    "roles": "top",
     "Winrate": "49.3%"
   },
   {
-    "name": "Twisted Fate",
-    "roles": "Mid",
+    "name": "twistedfate",
+    "roles": "middle",
     "Winrate": "48.9%"
   },
   {
-    "name": "Twitch",
-    "roles": "AD Carry",
+    "name": "twitch",
+    "roles": "adc",
     "Winrate": "50.1%"
   },
   {
-    "name": "Udyr",
-    "roles": "Jungler",
+    "name": "udyr",
+    "roles": "jungle",
     "Winrate": "48.8%"
   },
   {
-    "name": "Urgot",
-    "roles": "Top",
+    "name": "urgot",
+    "roles": "top",
     "Winrate": "52.2%"
   },
   {
-    "name": "Varus",
-    "roles": "AD Carry",
+    "name": "varus",
+    "roles": "adc",
     "Winrate": "48.9%"
   },
   {
-    "name": "Vayne",
-    "roles": "AD Carry",
+    "name": "vayne",
+    "roles": "adc",
     "Winrate": "51.3%"
   },
   {
-    "name": "Veigar",
-    "roles": "Mid",
+    "name": "veigar",
+    "roles": "middle",
     "Winrate": "50.2%"
   },
   {
-    "name": "Vel'Koz",
-    "roles": "Support, Mid",
+    "name": "velkoz",
+    "roles": "support,middle",
     "Winrate": "51.1%"
   },
   {
-    "name": "Vex",
-    "roles": "Mid",
+    "name": "vex",
+    "roles": "middle",
     "Winrate": "51.2%"
   },
   {
-    "name": "Vi",
-    "roles": "Jungler",
+    "name": "vi",
+    "roles": "jungle",
     "Winrate": "49.6%"
   },
   {
-    "name": "Viego",
-    "roles": "Jungler",
+    "name": "viego",
+    "roles": "jungle",
     "Winrate": "48.9%"
   },
   {
-    "name": "Viktor",
-    "roles": "Mid",
+    "name": "viktor",
+    "roles": "middle",
     "Winrate": "50.6%"
   },
   {
-    "name": "Vladimir",
-    "roles": "Mid, Top",
+    "name": "vladimir",
+    "roles": "middle,top",
     "Winrate": "50.4%"
   },
   {
-    "name": "Volibear",
-    "roles": "Top, Jungler",
+    "name": "volibear",
+    "roles": "top,jungle",
     "Winrate": "50.2%"
   },
   {
-    "name": "Warwick",
-    "roles": "Jungler, Top",
+    "name": "warwick",
+    "roles": "jungle,top",
     "Winrate": "51.7%"
   },
   {
-    "name": "Wukong",
-    "roles": "Jungler, Top",
+    "name": "monkeyking",
+    "roles": "jungle,top",
     "Winrate": "51.2%"
   },
   {
-    "name": "Xayah",
-    "roles": "AD Carry",
+    "name": "xayah",
+    "roles": "adc",
     "Winrate": "50.6%"
   },
   {
-    "name": "Xerath",
-    "roles": "Mid, Support",
+    "name": "xerath",
+    "roles": "middle,support",
     "Winrate": "50.4%"
   },
   {
-    "name": "Xin Zhao",
-    "roles": "Jungler",
+    "name": "xinzhao",
+    "roles": "jungle",
     "Winrate": "50.9%"
   },
   {
-    "name": "Yasuo",
-    "roles": "Mid",
+    "name": "yasuo",
+    "roles": "middle",
     "Winrate": "50.4%"
   },
   {
-    "name": "Yone",
-    "roles": "Mid, Top",
+    "name": "yone",
+    "roles": "middle,top",
     "Winrate": "47.7%"
   },
   {
-    "name": "Yorick",
-    "roles": "Top, Jungler",
+    "name": "yorick",
+    "roles": "top,jungle",
     "Winrate": "51.4%"
   },
   {
-    "name": "Yuumi",
-    "roles": "Support",
+    "name": "yuumi",
+    "roles": "support",
     "Winrate": "50.8%"
   },
   {
-    "name": "Zac",
-    "roles": "Jungler",
+    "name": "zac",
+    "roles": "jungle",
     "Winrate": "49.7%"
   },
   {
-    "name": "Zed",
-    "roles": "Mid, Jungler",
+    "name": "zed",
+    "roles": "middle,jungle",
     "Winrate": "49.2%"
   },
   {
-    "name": "Zeri",
-    "roles": "AD Carry",
+    "name": "zeri",
+    "roles": "adc",
     "Winrate": "49.8%"
   },
   {
-    "name": "Ziggs",
-    "roles": "AD Carry, Mid",
+    "name": "ziggs",
+    "roles": "adc,middle",
     "Winrate": "49.5%"
   },
   {
-    "name": "Zilean",
-    "roles": "Support",
+    "name": "zilean",
+    "roles": "support",
     "Winrate": "51.3%"
   },
   {
-    "name": "Zoe",
-    "roles": "Mid, Support",
+    "name": "zoe",
+    "roles": "middle,support",
     "Winrate": "49.9%"
   },
   {
-    "name": "Zyra",
-    "roles": "Support, Jungler",
+    "name": "zyra",
+    "roles": "support,jungle",
     "Winrate": "50.3%"
   }
 ]
