@@ -24,7 +24,7 @@ def get_championInfo():
       name = champsList[i*3].text
       identifier = champsList[i*3].text.lower().replace(" ", "").replace("'", "").replace(".", "").replace("&willump", "").replace("glasc", "").replace("wukong", "monkeyking")
       roles = champsList[(i*3)+1].text.lower().replace("jungler", "jungle").replace("mid", "middle").replace("ad carry", "adc").replace(" ", "")
-      generalWinrate = champsList[(i*3)+2].text.lower()
+      generalWinrate = float(champsList[(i*3)+2].text.lower().replace('%',''))
       champ = {
         "identifier": identifier,
         "name": name,
@@ -77,10 +77,10 @@ def insert_champions():
         val.append((champs[i]['identifier'], champs[i]['name'], champs[i]['winrate'], winrates[i]['top'], winrates[i]['jungle'], winrates[i]['mid'], winrates[i]['bot'], winrates[i]['support']))
   mycursor.executemany(sql, val)
   print(mycursor.rowcount)
-  mycursor.commit()
-start_browser()
+  mydb.commit()
+#start_browser()
 #get_championInfo()
-get_winrates()
-LoG.close()
+#get_winrates()
+#LoG.close()
 insert_champions()
 #input()
