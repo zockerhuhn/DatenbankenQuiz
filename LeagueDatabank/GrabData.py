@@ -87,10 +87,10 @@ def update_champions():
     with open("LeagueDatabank\\champion-info.json") as champsFile:
       winrates = json.load(winratesFile)
       champs = json.load(champsFile)
-      sql = f"UPDATE champion SET (identifier, name, winrate, winrate_top, winrate_jgl, winrate_mid, winrate_bot, winrate_sup) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
+      sql = f"UPDATE champion SET (winrate, winrate_top, winrate_jgl, winrate_mid, winrate_bot, winrate_sup) VALUES (%s, %s, %s, %s, %s, %s) WHERE champion.identifier = %s"
       val = []
       for i in range(len(winrates)):
-        val.append((champs[i]['identifier'], champs[i]['name'], champs[i]['winrate'], winrates[i]['top'], winrates[i]['jungle'], winrates[i]['mid'], winrates[i]['bot'], winrates[i]['support']))
+        val.append((champs[i]['winrate'], winrates[i]['top'], winrates[i]['jungle'], winrates[i]['mid'], winrates[i]['bot'], winrates[i]['support'], champs[i]['identifier']))
   mycursor.executemany(sql, val)
   print(mycursor.rowcount)
 
