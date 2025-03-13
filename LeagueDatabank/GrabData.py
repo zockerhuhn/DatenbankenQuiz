@@ -63,10 +63,13 @@ def get_winrates(): #reference: https://www.leagueofgraphs.com/champions/builds/
     json_obj = json.dumps(winrates, indent=2)
     winratesFile.write(json_obj)
 
-def insert_champions():
+def connect_database():
+  global mydb, mycursor
   #mydb = mysql.connector.connect(host="localhost", user= "eggbert",password="EggbertHatUser",database="testdb")
   mydb = mysql.connector.connect(host="10.0.41.8", user= "nutzer14",password="Eftg8xdx",database="Datenbank14")
   mycursor = mydb.cursor()
+
+def insert_champions():
   with open("LeagueDatabank\\winrates.json", 'r') as winratesFile:
     with open("LeagueDatabank\\champion-info.json") as champsFile:
       winrates = json.load(winratesFile)
@@ -77,10 +80,25 @@ def insert_champions():
         val.append((champs[i]['identifier'], champs[i]['name'], champs[i]['winrate'], winrates[i]['top'], winrates[i]['jungle'], winrates[i]['mid'], winrates[i]['bot'], winrates[i]['support']))
   mycursor.executemany(sql, val)
   print(mycursor.rowcount)
-  mydb.commit()
+
+def update_champions():
+  global mydb, mycursor
+  with open("LeagueDatabank\\winrates.json", 'r') as winratesFile:
+    with open("LeagueDatabank\\champion-info.json") as champsFile:
+      winrates = json.load(winratesFile)
+      champs = json.load(champsFile)
+      sql = f"UPDATE champion SET (identifier, name, winrate, winrate_top, winrate_jgl, winrate_mid, winrate_bot, winrate_sup) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
+      val = []
+      for i in range(len(winrates)):
+        val.append((champs[i]['identifier'], champs[i]['name'], champs[i]['winrate'], winrates[i]['top'], winrates[i]['jungle'], winrates[i]['mid'], winrates[i]['bot'], winrates[i]['support']))
+  mycursor.executemany(sql, val)
+  print(mycursor.rowcount)
+
+
 #start_browser()
 #get_championInfo()
 #get_winrates()
 #LoG.close()
 insert_champions()
+mydb.commit()
 #input()
