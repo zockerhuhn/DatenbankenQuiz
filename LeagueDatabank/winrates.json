@@ -1,7 +1,7 @@
 [
   {
     "identifier": "aatrox",
-    "top": 50.3,
+    "top": 49.7,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -14,7 +14,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 51.1
+    "middle": 50.9
   },
   {
     "identifier": "akali",
@@ -23,7 +23,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 49.4
+    "middle": 49.3
   },
   {
     "identifier": "akshan",
@@ -32,7 +32,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 50.6
+    "middle": 50.0
   },
   {
     "identifier": "alistar",
@@ -40,11 +40,11 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 49.6
+    "support": 49.1
   },
   {
     "identifier": "ambessa",
-    "top": 47.7,
+    "top": 48.0,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -53,7 +53,7 @@
   {
     "identifier": "amumu",
     "top": null,
-    "jungle": 51.0,
+    "jungle": 50.9,
     "mid": null,
     "bot": null,
     "support": null
@@ -65,7 +65,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 51.9
+    "middle": 52.1
   },
   {
     "identifier": "annie",
@@ -74,7 +74,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 53.2
+    "middle": 52.3
   },
   {
     "identifier": "aphelios",
@@ -83,7 +83,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 48.9
+    "adc": 49.1
   },
   {
     "identifier": "ashe",
@@ -92,7 +92,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 49.5
+    "adc": 49.2
   },
   {
     "identifier": "aurelionsol",
@@ -101,7 +101,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 51.4
+    "middle": 50.3
   },
   {
     "identifier": "aurora",
@@ -110,7 +110,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 48.4
+    "middle": 48.5
   },
   {
     "identifier": "azir",
@@ -127,12 +127,12 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 50.5
+    "support": 50.6
   },
   {
     "identifier": "belveth",
     "top": null,
-    "jungle": 49.6,
+    "jungle": 48.6,
     "mid": null,
     "bot": null,
     "support": null
@@ -143,7 +143,7 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 48.1
+    "support": 48.3
   },
   {
     "identifier": "brand",
@@ -151,7 +151,7 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 50.3
+    "support": 48.8
   },
   {
     "identifier": "braum",
@@ -159,12 +159,12 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 52.0
+    "support": 51.7
   },
   {
     "identifier": "briar",
     "top": null,
-    "jungle": 51.1,
+    "jungle": 51.3,
     "mid": null,
     "bot": null,
     "support": null
@@ -176,7 +176,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 49.5
+    "adc": 49.1
   },
   {
     "identifier": "camille",
@@ -188,21 +188,21 @@
   },
   {
     "identifier": "cassiopeia",
-    "top": 51.4,
+    "top": 53.1,
     "jungle": null,
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 51.9
+    "middle": 52.2
   },
   {
     "identifier": "chogath",
-    "top": 50.2,
+    "top": 50.3,
     "jungle": null,
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 51.9
+    "middle": 52.6
   },
   {
     "identifier": "corki",
@@ -211,11 +211,11 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 49.6
+    "adc": 50.2
   },
   {
     "identifier": "darius",
-    "top": 50.8,
+    "top": 50.6,
     "jungle": 54.5,
     "mid": null,
     "bot": null,
@@ -224,11 +224,11 @@
   {
     "identifier": "diana",
     "top": null,
-    "jungle": 50.9,
+    "jungle": 50.2,
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 51.4
+    "middle": 51.5
   },
   {
     "identifier": "drmundo",
@@ -250,24 +250,24 @@
   {
     "identifier": "ekko",
     "top": null,
-    "jungle": 49.8,
+    "jungle": 50.0,
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 50.7
+    "middle": 50.9
   },
   {
     "identifier": "elise",
     "top": null,
-    "jungle": 48.9,
+    "jungle": 49.3,
     "mid": null,
     "bot": null,
-    "support": 49.9
+    "support": 50.4
   },
   {
     "identifier": "evelynn",
     "top": null,
-    "jungle": 49.8,
+    "jungle": 50.5,
     "mid": null,
     "bot": null,
     "support": null
@@ -279,19 +279,19 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 49.0
+    "adc": 48.8
   },
   {
     "identifier": "fiddlesticks",
     "top": null,
-    "jungle": 51.1,
+    "jungle": 50.3,
     "mid": null,
     "bot": null,
-    "support": 52.1
+    "support": 51.2
   },
   {
     "identifier": "fiora",
-    "top": 49.1,
+    "top": 49.9,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -304,7 +304,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 49.8
+    "middle": 49.3
   },
   {
     "identifier": "galio",
@@ -313,11 +313,11 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 51.0
+    "middle": 50.8
   },
   {
     "identifier": "gangplank",
-    "top": 47.9,
+    "top": 48.0,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -325,7 +325,7 @@
   },
   {
     "identifier": "garen",
-    "top": 50.9,
+    "top": 50.5,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -333,7 +333,7 @@
   },
   {
     "identifier": "gnar",
-    "top": 49.2,
+    "top": 49.3,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -341,8 +341,8 @@
   },
   {
     "identifier": "gragas",
-    "top": 50.1,
-    "jungle": 47.2,
+    "top": 50.6,
+    "jungle": 46.5,
     "mid": null,
     "bot": null,
     "support": null
@@ -350,15 +350,15 @@
   {
     "identifier": "graves",
     "top": null,
-    "jungle": 49.8,
+    "jungle": 50.1,
     "mid": null,
     "bot": null,
     "support": null
   },
   {
     "identifier": "gwen",
-    "top": 50.0,
-    "jungle": 50.0,
+    "top": 50.3,
+    "jungle": 49.9,
     "mid": null,
     "bot": null,
     "support": null
@@ -366,14 +366,14 @@
   {
     "identifier": "hecarim",
     "top": null,
-    "jungle": 49.4,
+    "jungle": 49.1,
     "mid": null,
     "bot": null,
     "support": null
   },
   {
     "identifier": "heimerdinger",
-    "top": 50.6,
+    "top": 51.2,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -386,7 +386,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 49.6
+    "middle": 50.0
   },
   {
     "identifier": "illaoi",
@@ -398,17 +398,17 @@
   },
   {
     "identifier": "irelia",
-    "top": 50.8,
+    "top": 50.5,
     "jungle": null,
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 50.1
+    "middle": 50.0
   },
   {
     "identifier": "ivern",
     "top": null,
-    "jungle": 49.0,
+    "jungle": 49.3,
     "mid": null,
     "bot": null,
     "support": null
@@ -419,19 +419,19 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 50.8
+    "support": 50.9
   },
   {
     "identifier": "jarvaniv",
     "top": null,
-    "jungle": 51.2,
+    "jungle": 51.3,
     "mid": null,
     "bot": null,
     "support": null
   },
   {
     "identifier": "jax",
-    "top": 49.1,
+    "top": 49.3,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -452,7 +452,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 49.7
+    "adc": 49.5
   },
   {
     "identifier": "jinx",
@@ -461,11 +461,11 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 52.1
+    "adc": 51.9
   },
   {
     "identifier": "ksante",
-    "top": 45.5,
+    "top": 46.1,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -478,7 +478,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 48.0
+    "adc": 48.5
   },
   {
     "identifier": "kalista",
@@ -487,7 +487,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 47.3
+    "adc": 47.0
   },
   {
     "identifier": "karma",
@@ -495,12 +495,12 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 50.7
+    "support": 50.4
   },
   {
     "identifier": "karthus",
     "top": null,
-    "jungle": 48.8,
+    "jungle": 49.6,
     "mid": null,
     "bot": null,
     "support": null
@@ -512,7 +512,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 50.9
+    "middle": 50.0
   },
   {
     "identifier": "katarina",
@@ -521,11 +521,11 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 49.5
+    "middle": 49.4
   },
   {
     "identifier": "kayle",
-    "top": 52.7,
+    "top": 52.0,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -534,14 +534,14 @@
   {
     "identifier": "kayn",
     "top": null,
-    "jungle": 50.0,
+    "jungle": 50.5,
     "mid": null,
     "bot": null,
     "support": null
   },
   {
     "identifier": "kennen",
-    "top": 50.0,
+    "top": 51.2,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -550,7 +550,7 @@
   {
     "identifier": "khazix",
     "top": null,
-    "jungle": 48.7,
+    "jungle": 49.1,
     "mid": null,
     "bot": null,
     "support": null
@@ -565,7 +565,7 @@
   },
   {
     "identifier": "kled",
-    "top": 51.3,
+    "top": 50.4,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -578,7 +578,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 52.8
+    "adc": 53.7
   },
   {
     "identifier": "leblanc",
@@ -587,7 +587,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 49.1
+    "middle": 49.4
   },
   {
     "identifier": "leesin",
@@ -608,7 +608,7 @@
   {
     "identifier": "lillia",
     "top": null,
-    "jungle": 49.7,
+    "jungle": 49.3,
     "mid": null,
     "bot": null,
     "support": null
@@ -629,7 +629,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 49.7
+    "adc": 50.2
   },
   {
     "identifier": "lulu",
@@ -637,7 +637,7 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 51.2
+    "support": 51.4
   },
   {
     "identifier": "lux",
@@ -645,8 +645,8 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 48.4,
-    "middle": 50.7
+    "support": 48.6,
+    "middle": 50.3
   },
   {
     "identifier": "malphite",
@@ -663,20 +663,20 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 51.4
+    "middle": 51.9
   },
   {
     "identifier": "maokai",
-    "top": 49.6,
+    "top": null,
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 50.0
+    "support": 50.5
   },
   {
     "identifier": "masteryi",
     "top": null,
-    "jungle": 51.0,
+    "jungle": 50.5,
     "mid": null,
     "bot": null,
     "support": null
@@ -687,8 +687,8 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 44.8,
-    "middle": 46.5
+    "support": 44.2,
+    "middle": 46.7
   },
   {
     "identifier": "milio",
@@ -696,7 +696,7 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 51.9
+    "support": 51.5
   },
   {
     "identifier": "missfortune",
@@ -705,11 +705,11 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 50.8
+    "adc": 50.7
   },
   {
     "identifier": "mordekaiser",
-    "top": 51.1,
+    "top": 51.3,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -721,7 +721,7 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 50.4
+    "support": 50.2
   },
   {
     "identifier": "naafiri",
@@ -730,7 +730,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 51.8
+    "middle": 52.5
   },
   {
     "identifier": "nami",
@@ -738,11 +738,11 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 51.7
+    "support": 52.0
   },
   {
     "identifier": "nasus",
-    "top": 50.7,
+    "top": 49.9,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -754,7 +754,7 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 49.0
+    "support": 49.3
   },
   {
     "identifier": "neeko",
@@ -762,13 +762,13 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 50.0,
-    "middle": 52.0
+    "support": 50.4,
+    "middle": 51.4
   },
   {
     "identifier": "nidalee",
     "top": null,
-    "jungle": 47.7,
+    "jungle": 45.4,
     "mid": null,
     "bot": null,
     "support": null
@@ -780,12 +780,12 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 53.4
+    "adc": 54.0
   },
   {
     "identifier": "nocturne",
     "top": null,
-    "jungle": 51.5,
+    "jungle": 51.7,
     "mid": null,
     "bot": null,
     "support": null
@@ -793,14 +793,14 @@
   {
     "identifier": "nunu",
     "top": null,
-    "jungle": 51.4,
+    "jungle": 52.1,
     "mid": null,
     "bot": null,
     "support": null
   },
   {
     "identifier": "olaf",
-    "top": 49.8,
+    "top": 50.5,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -813,11 +813,11 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 49.6
+    "middle": 49.4
   },
   {
     "identifier": "ornn",
-    "top": 51.8,
+    "top": 51.2,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -825,19 +825,19 @@
   },
   {
     "identifier": "pantheon",
-    "top": 50.0,
-    "jungle": 50.9,
+    "top": 50.1,
+    "jungle": 50.2,
     "mid": null,
     "bot": null,
-    "support": 49.7
+    "support": 49.3
   },
   {
     "identifier": "poppy",
-    "top": 51.6,
+    "top": 50.1,
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 50.5
+    "support": 50.4
   },
   {
     "identifier": "pyke",
@@ -854,16 +854,16 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 49.6
+    "middle": 49.3
   },
   {
     "identifier": "quinn",
-    "top": 51.7,
+    "top": 52.5,
     "jungle": null,
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 52.8
+    "middle": 53.3
   },
   {
     "identifier": "rakan",
@@ -871,12 +871,12 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 49.7
+    "support": 49.8
   },
   {
     "identifier": "rammus",
     "top": null,
-    "jungle": 49.8,
+    "jungle": 50.8,
     "mid": null,
     "bot": null,
     "support": null
@@ -884,7 +884,7 @@
   {
     "identifier": "reksai",
     "top": null,
-    "jungle": 50.0,
+    "jungle": 50.2,
     "mid": null,
     "bot": null,
     "support": null
@@ -903,11 +903,11 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 49.6
+    "support": 50.0
   },
   {
     "identifier": "renekton",
-    "top": 49.9,
+    "top": 49.4,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -916,14 +916,14 @@
   {
     "identifier": "rengar",
     "top": null,
-    "jungle": 47.0,
+    "jungle": 46.9,
     "mid": null,
     "bot": null,
     "support": null
   },
   {
     "identifier": "riven",
-    "top": 50.0,
+    "top": 50.2,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -931,7 +931,7 @@
   },
   {
     "identifier": "rumble",
-    "top": 48.2,
+    "top": 47.6,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -939,12 +939,12 @@
   },
   {
     "identifier": "ryze",
-    "top": 51.4,
+    "top": 51.1,
     "jungle": null,
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 50.9
+    "middle": 50.6
   },
   {
     "identifier": "samira",
@@ -953,7 +953,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 50.1
+    "adc": 49.7
   },
   {
     "identifier": "sejuani",
@@ -969,7 +969,7 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 50.5
+    "support": 50.8
   },
   {
     "identifier": "seraphine",
@@ -977,11 +977,11 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 50.2
+    "support": 49.0
   },
   {
     "identifier": "sett",
-    "top": 52.0,
+    "top": 51.2,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -990,10 +990,10 @@
   {
     "identifier": "shaco",
     "top": null,
-    "jungle": 48.9,
+    "jungle": 48.8,
     "mid": null,
     "bot": null,
-    "support": 50.3
+    "support": 48.4
   },
   {
     "identifier": "shen",
@@ -1006,14 +1006,14 @@
   {
     "identifier": "shyvana",
     "top": null,
-    "jungle": 51.4,
+    "jungle": 50.5,
     "mid": null,
     "bot": null,
     "support": null
   },
   {
     "identifier": "singed",
-    "top": 51.0,
+    "top": 53.1,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -1021,7 +1021,7 @@
   },
   {
     "identifier": "sion",
-    "top": 50.8,
+    "top": 50.5,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -1034,12 +1034,12 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 51.8
+    "adc": 51.5
   },
   {
     "identifier": "skarner",
     "top": null,
-    "jungle": 44.1,
+    "jungle": 43.6,
     "mid": null,
     "bot": null,
     "support": null
@@ -1051,7 +1051,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 48.7
+    "adc": 47.9
   },
   {
     "identifier": "sona",
@@ -1059,7 +1059,7 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 51.4
+    "support": 50.9
   },
   {
     "identifier": "soraka",
@@ -1075,8 +1075,8 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 48.9,
-    "middle": 51.9
+    "support": 48.7,
+    "middle": 51.7
   },
   {
     "identifier": "sylas",
@@ -1085,7 +1085,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 49.4
+    "middle": 49.3
   },
   {
     "identifier": "syndra",
@@ -1094,33 +1094,33 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 50.4
+    "middle": 50.6
   },
   {
     "identifier": "tahmkench",
-    "top": 50.1,
+    "top": 49.4,
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 49.9
+    "support": 48.5
   },
   {
     "identifier": "taliyah",
-    "top": null,
-    "jungle": 49.3,
-    "mid": null,
-    "bot": null,
-    "support": null,
-    "middle": 51.2
-  },
-  {
-    "identifier": "talon",
     "top": null,
     "jungle": 48.9,
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 49.5
+    "middle": 51.1
+  },
+  {
+    "identifier": "talon",
+    "top": null,
+    "jungle": 49.6,
+    "mid": null,
+    "bot": null,
+    "support": null,
+    "middle": 49.3
   },
   {
     "identifier": "taric",
@@ -1128,11 +1128,11 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 52.3
+    "support": 51.8
   },
   {
     "identifier": "teemo",
-    "top": 52.1,
+    "top": 51.0,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -1153,19 +1153,19 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 51.1
+    "adc": 51.7
   },
   {
     "identifier": "trundle",
-    "top": 49.8,
-    "jungle": 49.5,
+    "top": 49.9,
+    "jungle": 51.3,
     "mid": null,
     "bot": null,
     "support": null
   },
   {
     "identifier": "tryndamere",
-    "top": 49.5,
+    "top": 49.6,
     "jungle": null,
     "mid": null,
     "bot": null,
@@ -1178,7 +1178,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 48.9
+    "middle": 48.8
   },
   {
     "identifier": "twitch",
@@ -1187,12 +1187,12 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 51.3
+    "adc": 50.6
   },
   {
     "identifier": "udyr",
     "top": null,
-    "jungle": 49.4,
+    "jungle": 49.9,
     "mid": null,
     "bot": null,
     "support": null
@@ -1212,7 +1212,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 49.0
+    "adc": 49.1
   },
   {
     "identifier": "vayne",
@@ -1238,8 +1238,8 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 50.7,
-    "middle": 51.4
+    "support": 50.6,
+    "middle": 51.5
   },
   {
     "identifier": "vex",
@@ -1248,12 +1248,12 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 51.2
+    "middle": 51.6
   },
   {
     "identifier": "vi",
     "top": null,
-    "jungle": 50.0,
+    "jungle": 49.7,
     "mid": null,
     "bot": null,
     "support": null
@@ -1261,7 +1261,7 @@
   {
     "identifier": "viego",
     "top": null,
-    "jungle": 49.0,
+    "jungle": 49.6,
     "mid": null,
     "bot": null,
     "support": null
@@ -1273,37 +1273,37 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 50.6
+    "middle": 50.5
   },
   {
     "identifier": "vladimir",
-    "top": 49.4,
+    "top": 49.6,
     "jungle": null,
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 51.1
+    "middle": 50.9
   },
   {
     "identifier": "volibear",
-    "top": 49.8,
-    "jungle": 51.1,
+    "top": 49.4,
+    "jungle": 50.1,
     "mid": null,
     "bot": null,
     "support": null
   },
   {
     "identifier": "warwick",
-    "top": 51.5,
-    "jungle": 51.7,
+    "top": 52.1,
+    "jungle": 51.4,
     "mid": null,
     "bot": null,
     "support": null
   },
   {
     "identifier": "monkeyking",
-    "top": 51.6,
-    "jungle": 51.2,
+    "top": 50.8,
+    "jungle": 50.7,
     "mid": null,
     "bot": null,
     "support": null
@@ -1315,7 +1315,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 50.6
+    "adc": 50.0
   },
   {
     "identifier": "xerath",
@@ -1323,13 +1323,13 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 49.9,
+    "support": 50.3,
     "middle": 50.9
   },
   {
     "identifier": "xinzhao",
     "top": null,
-    "jungle": 51.1,
+    "jungle": 51.0,
     "mid": null,
     "bot": null,
     "support": null
@@ -1345,17 +1345,17 @@
   },
   {
     "identifier": "yone",
-    "top": 47.5,
+    "top": 48.7,
     "jungle": null,
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 47.9
+    "middle": 47.5
   },
   {
     "identifier": "yorick",
-    "top": 51.4,
-    "jungle": 52.0,
+    "top": 51.2,
+    "jungle": 52.8,
     "mid": null,
     "bot": null,
     "support": null
@@ -1366,7 +1366,7 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 51.1
+    "support": 50.7
   },
   {
     "identifier": "zac",
@@ -1379,11 +1379,11 @@
   {
     "identifier": "zed",
     "top": null,
-    "jungle": 49.3,
+    "jungle": 48.5,
     "mid": null,
     "bot": null,
     "support": null,
-    "middle": 49.2
+    "middle": 49.0
   },
   {
     "identifier": "zeri",
@@ -1392,7 +1392,7 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 50.0
+    "adc": 49.8
   },
   {
     "identifier": "ziggs",
@@ -1401,8 +1401,8 @@
     "mid": null,
     "bot": null,
     "support": null,
-    "adc": 50.9,
-    "middle": 47.5
+    "adc": 52.0,
+    "middle": 48.2
   },
   {
     "identifier": "zilean",
@@ -1410,7 +1410,7 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 50.9
+    "support": 51.2
   },
   {
     "identifier": "zoe",
@@ -1418,15 +1418,15 @@
     "jungle": null,
     "mid": null,
     "bot": null,
-    "support": 48.2,
-    "middle": 50.4
+    "support": 49.1,
+    "middle": 49.3
   },
   {
     "identifier": "zyra",
     "top": null,
-    "jungle": 49.3,
+    "jungle": 48.9,
     "mid": null,
     "bot": null,
-    "support": 51.0
+    "support": 50.9
   }
 ]
