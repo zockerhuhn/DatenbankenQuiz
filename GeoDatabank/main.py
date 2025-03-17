@@ -15,6 +15,8 @@ answLimitNormal = 4
 answLimitHard = 2
 score = 0
 scoreMax = 0
+highscore = 0
+notValid = False
 
 
 class Question:
@@ -69,32 +71,35 @@ class Question:
 
 question:Question
 def quiz(name):
+    global answLimitHard, answLimitNormal, score, scoreMax ,highscore, question, notValid, mode
     sql = "SELECT COUNT(*) FROM user WHERE user.Name = %s"
     val = [name]
     mycursor.execute(sql, val)
     fetchResult = mycursor.fetchone()
     if fetchResult[0] == 0:
-        waitForUser = messagebox.askokcancel(f"Der Name {name} wurde bisher noch nicht benutzt, falls du nicht neu hier bist überprüfe die Rechtschreibung des Namens")
+        waitForUser = messagebox.askokcancel(message=f"Der Name {name} wurde bisher noch nicht benutzt, falls du nicht neu hier bist überprüfe die Rechtschreibung des Namens")
         if not waitForUser:
             exit()
         sql = "INSERT INTO user (Name) VALUES (%s)"
         mycursor.execute(sql, val)
         fetchResult = [0, 0]
-  else:
-    sql = "SELECT user.Highscore_normal, user.Highscore_hard FROM user WHERE user.Name = %s"
-    mycursor.execute(sql, val)
-    fetchResult = mycursor.fetchone()
-    sql = "SELECT COUNT(*) FROM user WHERE user.Highscore_normal >= %s"
-    mycursor.execute(sql, [fetchResult[0]])
-    placement_normal = mycursor.fetchone()[0]
-    sql = "SELECT COUNT(*) FROM user WHERE user.Highscore_hard >= %s"
-    mycursor.execute(sql, [fetchResult[1]])
-    placement_hard = mycursor.fetchone()[0]
-    print(f"Willkommen zurück {name}, dein highscore in normal ist {fetchResult[0]} (Top {placement_normal}), dein highscore in hard ist {fetchResult[1]} (Top {placement_hard})")
-    
-    global answLimitHard, answLimitNormal, score, scoreMax, question
+    else:
+        sql = "SELECT user.Highscore_normal, user.Highscore_hard FROM user WHERE user.Name = %s"
+        mycursor.execute(sql, val)
+        fetchResult = mycursor.fetchone()
+        sql = "SELECT COUNT(*) FROM user WHERE user.Highscore_normal >= %s"
+        mycursor.execute(sql, [fetchResult[0]])
+        placement_normal = mycursor.fetchone()[0]
+        sql = "SELECT COUNT(*) FROM user WHERE user.Highscore_hard >= %s"
+        mycursor.execute(sql, [fetchResult[1]])
+        placement_hard = mycursor.fetchone()[0]
+        messagebox.showinfo(message=f"Willkommen zurück {name}, dein highscore in normal ist {fetchResult[0]} (Top {placement_normal}), dein highscore in hard ist {fetchResult[1]} (Top {placement_hard})")
+        if mode == "hard":
+            highscore = fetchResult[1]
+        elif mode == "normal":
+            highscore = fetchResult[0]
     def answer(index):
-        global score, scoreMax, mode, question
+        global score, scoreMax, mode, question, sql, val, mycursor
         if index == question.correctAnsw:
             score += 1
         scoreMax += 1
@@ -102,10 +107,17 @@ def quiz(name):
         resultLabel2.config(text=f"{score}/{scoreMax} korrekt")
         if scoreMax - score >= answLimit:
             printstr = f"Score: {score}"
-            if score > highscore:
+            if score > highscore and not notValid:
                 printstr += ", neuer highscore"
-            message = messagebox.showinfo(printstr)
+                if mode:
+                    sql = "UPDATE user SET highscore_hard = %s WHERE name = %s"
+                else:
+                    sql = "UPDATE user SET highscore_normal = %s WHERE name = %s"
+                val = [score, name]
+                mycursor.execute(sql, val)
+            message = messagebox.showinfo(message=printstr)
             if message:
+                mydb.commit()
                 exit()
         question = Question(mode)
         answButton1.config(text=question.answers[0])
@@ -121,11 +133,12 @@ def quiz(name):
         answer(2)
     def answer3():
         answer(3)
-    global mode
     root.destroy()
     master = tk.Tk()
     master.title("Quiz")
     if mode != "normal":
+        if mode == "practice":
+            notValid = True
         mode = True
         answLimit = answLimitHard
     else:
