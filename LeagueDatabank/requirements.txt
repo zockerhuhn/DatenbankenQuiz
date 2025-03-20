@@ -1,1 +1,4 @@
 selenium
+mysql-connector-python
+pygame
+pygame_menu
