@@ -3,20 +3,40 @@ from tkinter import ttk, messagebox
 import mysql.connector
 import random
 
+inSchool = True #verbinden mit der Schuldatenbank statt eigener
+
 root = tk.Tk()
 root.title("login")
-mydb = mysql.connector.connect(host="localhost", user= "eggbert",password="EggbertHatUser",database="datenbank14")
-#mydb = mysql.connector.connect(host="10.0.41.8", user= "nutzer14",password="Eftg8xdx",database="Datenbank14")
+if inSchool:
+    mydb = mysql.connector.connect(host="10.0.41.8", user= "nutzer14",password="Eftg8xdx",database="Datenbank14")
+else:
+    mydb = mysql.connector.connect(host="localhost", user= "eggbert",password="EggbertHatUser",database="datenbank14")
 mycursor = mydb.cursor()
 
-gamemode:str
 mode = None
 answLimitNormal = 4
 answLimitHard = 2
 score = 0
 scoreMax = 0
 highscore = 0
-notValid = False
+valid = True
+master = None
+
+def reset():
+    """Resets the Quiz for a retry
+    """
+    global score, scoreMax, highscore, master, root
+    score = 0
+    scoreMax = 0
+    highscore = 0
+    if master != None:
+        master.destroy()
+        master = None
+    if root != None:
+        root.destroy()
+        root = None
+    root = tk.Tk()
+    root.title("login")
 
 
 class Question:
@@ -25,7 +45,7 @@ class Question:
     correctAnsw:int
     def __init__(self, hard:bool, questionType = -1):
         if questionType == -1: #um einfacher Fragen zu testen
-            if hard:
+            if hard: #type 2 trifft nur in hard auf
                 questionType = random.randint(0, 2)
             else:
                 questionType = random.randint(0, 1)
@@ -37,14 +57,14 @@ class Question:
                 mycursor.execute(sql)
                 fetchResult = mycursor.fetchall()
                 for i in range(len(self.answers)):
-                    while True:
-                        questionNr = random.randint(0, len(fetchResult)-1)
+                    while True: #Verhindert dass keine doppelten Antwortmöglichkeiten auftreten
+                        questionNr = random.randint(0, len(fetchResult)-1) #Eine zufällige Frage aus allen Fragen wählen
                         if fetchResult[questionNr][1] not in self.answers: break
                     self.answers[i] = fetchResult[questionNr][1]
                     if i == self.correctAnsw:
                         self.question = f"Von welchem Land ist {fetchResult[questionNr][0]} die Hauptstadt?"
             case 1:
-                if hard:
+                if hard: #Bei Modus hard werden auch sprachen die unter 50% gesprochen werden inkludiert
                     sql = "SELECT sprache.Name, land.Name, gesprochen.Anteil FROM ((gesprochen INNER JOIN land ON gesprochen.LNR = land.LNR) INNER JOIN sprache ON gesprochen.SNR = sprache.SNR) WHERE gesprochen.Anteil IS NOT NULL"
                 else:
                     sql = "SELECT sprache.Name, land.Name, gesprochen.Anteil FROM ((gesprochen INNER JOIN land ON gesprochen.LNR = land.LNR) INNER JOIN sprache ON gesprochen.SNR = sprache.SNR) WHERE gesprochen.Anteil IS NOT NULL AND gesprochen.Anteil > 50"
@@ -71,19 +91,22 @@ class Question:
 
 question:Question
 def quiz(name):
-    global answLimitHard, answLimitNormal, score, scoreMax ,highscore, question, notValid, mode
+### USER HANDLING ###
+    global answLimitHard, answLimitNormal, score, scoreMax ,highscore, question, valid, mode, master, root
     sql = "SELECT COUNT(*) FROM user WHERE user.Name = %s"
     val = [name]
     mycursor.execute(sql, val)
     fetchResult = mycursor.fetchone()
-    if fetchResult[0] == 0:
+    if fetchResult[0] == 0: #Nutzer nicht wiedererkannt
         waitForUser = messagebox.askokcancel(message=f"Der Name {name} wurde bisher noch nicht benutzt, falls du nicht neu hier bist überprüfe die Rechtschreibung des Namens")
-        if not waitForUser:
-            exit()
+        if not waitForUser: #Auf ok warten von Nutzer, sonst Programm neustarten und Nutzer nicht in Datenbank aufnehmen
+            GUI()
+            reset()
+            exit() #Theoretisch endet das Programm immer per exit() allerdings falls etwas übersehen wurde wird nach neustart exited
         sql = "INSERT INTO user (Name) VALUES (%s)"
         mycursor.execute(sql, val)
         fetchResult = [0, 0]
-    else:
+    else: #Nutzer wiedererkannt
         sql = "SELECT user.Highscore_normal, user.Highscore_hard FROM user WHERE user.Name = %s"
         mycursor.execute(sql, val)
         fetchResult = mycursor.fetchone()
@@ -98,34 +121,43 @@ def quiz(name):
             highscore = fetchResult[1]
         elif mode == "normal":
             highscore = fetchResult[0]
+### ANSWER PROCESSING ###
     def answer(index):
+        """Handles answers by setting score and updating with a new question
+
+        Args:
+            index (int): which answer (0-3) was given
+        """
         global score, scoreMax, mode, question, sql, val, mycursor
         if index == question.correctAnsw:
             score += 1
         scoreMax += 1
         resultLabel1.config(text=f"Die Antwort war {question.answers[question.correctAnsw]}")
         resultLabel2.config(text=f"{score}/{scoreMax} korrekt")
-        if scoreMax - score >= answLimit:
+        if scoreMax - score >= answLimit and valid:
             printstr = f"Score: {score}"
-            if score > highscore and not notValid:
+            if score > highscore:
                 printstr += ", neuer highscore"
-                if mode:
-                    sql = "UPDATE user SET highscore_hard = %s WHERE name = %s"
-                else:
-                    sql = "UPDATE user SET highscore_normal = %s WHERE name = %s"
+                sql = f"UPDATE user SET highscore_{mode} = %s WHERE name = %s"
                 val = [score, name]
                 mycursor.execute(sql, val)
-            message = messagebox.showinfo(message=printstr)
+            printstr += ", retry?"
+            message = messagebox.askokcancel(message=printstr)
+            mydb.commit()
             if message:
-                mydb.commit()
-                exit()
-        question = Question(mode)
+                reset()
+                GUI()
+            exit()
+        if mode == "normal":
+            question = Question(False)
+        else:
+            question = Question(True)
         answButton1.config(text=question.answers[0])
         answButton2.config(text=question.answers[1])
         answButton3.config(text=question.answers[2])
         answButton4.config(text=question.answers[3])
         questionLabel.config(text=question.question)
-    def answer0():
+    def answer0(): #siehe Zeile 149
         answer(0)
     def answer1():
         answer(1)
@@ -133,18 +165,25 @@ def quiz(name):
         answer(2)
     def answer3():
         answer(3)
+### SETUP ###
     root.destroy()
+    root = None
     master = tk.Tk()
     master.title("Quiz")
-    if mode != "normal":
-        if mode == "practice":
-            notValid = True
-        mode = True
-        answLimit = answLimitHard
-    else:
-        mode = False
-        answLimit = answLimitNormal
-    question = Question(mode)
+    match mode:
+        case "normal":
+            answLimit = answLimitNormal
+            question = Question(False)
+        case "hard":
+            answLimit = answLimitHard
+            question = Question(True)
+        case "practice":
+            valid = False
+            question = Question(True)
+        case _:
+            Exception()
+            
+### GUI ###
     questionLabel = tk.Label(master, text=question.question)
     answButton1 = tk.Button(master, text=question.answers[0], command=answer0) #bei command kann keine Funktion mit args angegeben werden da die Funktion sonst beim erstellen des buttons aufgerufen wird
     answButton2 = tk.Button(master, text=question.answers[1], command=answer1)
@@ -164,6 +203,7 @@ def quiz(name):
 
 
 def GUI():
+### LOGIN ###
     def updateMode(event):
         global mode
         mode = modeSelector.get()
