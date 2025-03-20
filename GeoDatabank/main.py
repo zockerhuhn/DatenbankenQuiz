@@ -29,14 +29,15 @@ def reset():
     score = 0
     scoreMax = 0
     highscore = 0
-    if master != None:
+    if master != None: #Quiz window schließen
         master.destroy()
         master = None
-    if root != None:
+    if root != None: #Login window schließen falls es existiert damit es neu erstellt werden kann
         root.destroy()
         root = None
     root = tk.Tk()
     root.title("login")
+    GUI()
 
 
 class Question:
@@ -49,7 +50,7 @@ class Question:
                 questionType = random.randint(0, 2)
             else:
                 questionType = random.randint(0, 1)
-        self.answers = [None, None, None, None]
+        self.answers = [None, None, None, None] #Die Antworten werden in einem Array gespeichert um einfacher nach doppelten Antworten zu prüfen
         self.correctAnsw = random.randint(0, 3)
         match questionType:
             case 0:
@@ -64,8 +65,8 @@ class Question:
                     if i == self.correctAnsw:
                         self.question = f"Von welchem Land ist {fetchResult[questionNr][0]} die Hauptstadt?"
             case 1:
-                if hard: #Bei Modus hard werden auch sprachen die unter 50% gesprochen werden inkludiert
-                    sql = "SELECT sprache.Name, land.Name, gesprochen.Anteil FROM ((gesprochen INNER JOIN land ON gesprochen.LNR = land.LNR) INNER JOIN sprache ON gesprochen.SNR = sprache.SNR) WHERE gesprochen.Anteil IS NOT NULL"
+                if hard: #Bei Modus hard werden statt Sprachen die über 50% gesprochen werden nur Sprachen die unter 50% gesprochen werden inkludiert
+                    sql = "SELECT sprache.Name, land.Name, gesprochen.Anteil FROM ((gesprochen INNER JOIN land ON gesprochen.LNR = land.LNR) INNER JOIN sprache ON gesprochen.SNR = sprache.SNR) WHERE gesprochen.Anteil IS NOT NULL AND gesprochen.Anteil < 50"
                 else:
                     sql = "SELECT sprache.Name, land.Name, gesprochen.Anteil FROM ((gesprochen INNER JOIN land ON gesprochen.LNR = land.LNR) INNER JOIN sprache ON gesprochen.SNR = sprache.SNR) WHERE gesprochen.Anteil IS NOT NULL AND gesprochen.Anteil > 50"
                 mycursor.execute(sql)
@@ -100,7 +101,6 @@ def quiz(name):
     if fetchResult[0] == 0: #Nutzer nicht wiedererkannt
         waitForUser = messagebox.askokcancel(message=f"Der Name {name} wurde bisher noch nicht benutzt, falls du nicht neu hier bist überprüfe die Rechtschreibung des Namens")
         if not waitForUser: #Auf ok warten von Nutzer, sonst Programm neustarten und Nutzer nicht in Datenbank aufnehmen
-            GUI()
             reset()
             exit() #Theoretisch endet das Programm immer per exit() allerdings falls etwas übersehen wurde wird nach neustart exited
         sql = "INSERT INTO user (Name) VALUES (%s)"
@@ -133,8 +133,8 @@ def quiz(name):
             score += 1
         scoreMax += 1
         resultLabel1.config(text=f"Die Antwort war {question.answers[question.correctAnsw]}")
-        resultLabel2.config(text=f"{score}/{scoreMax} korrekt")
-        if scoreMax - score >= answLimit and valid:
+        resultLabel2.config(text=f"Score: {score}, Leben: {answLimit-(scoreMax-score)}")
+        if valid and scoreMax - score >= answLimit:
             printstr = f"Score: {score}"
             if score > highscore:
                 printstr += ", neuer highscore"
@@ -146,7 +146,6 @@ def quiz(name):
             mydb.commit()
             if message:
                 reset()
-                GUI()
             exit()
         if mode == "normal":
             question = Question(False)
@@ -178,26 +177,28 @@ def quiz(name):
             answLimit = answLimitHard
             question = Question(True)
         case "practice":
+            answLimit = 9999
             valid = False
             question = Question(True)
         case _:
-            Exception()
-            
+            messagebox.showerror(message="Invalid mode")
+            reset()
+      
 ### GUI ###
     questionLabel = tk.Label(master, text=question.question)
     answButton1 = tk.Button(master, text=question.answers[0], command=answer0) #bei command kann keine Funktion mit args angegeben werden da die Funktion sonst beim erstellen des buttons aufgerufen wird
     answButton2 = tk.Button(master, text=question.answers[1], command=answer1)
     answButton3 = tk.Button(master, text=question.answers[2], command=answer2)
     answButton4 = tk.Button(master, text=question.answers[3], command=answer3)
-    resultLabel2 = tk.Label(master, text=f"{0}/{0} Antworten korrekt")
+    resultLabel2 = tk.Label(master, text=f"Score: 0, Leben: {answLimit-(scoreMax-score)}")
     resultLabel1 = tk.Label(master, text="")
     questionLabel.pack()
     answButton1.pack(side='bottom', fill='both')
     answButton2.pack(side='bottom', fill='both')
     answButton3.pack(side='bottom', fill='both')
     answButton4.pack(side='bottom', fill='both')
-    resultLabel1.pack(side='top')
     resultLabel2.pack(side='top')
+    resultLabel1.pack(side='top')
     master.mainloop()
 
 
@@ -212,7 +213,7 @@ def GUI():
     nameLabel = tk.Label(root, text="Name:")
     nameEntry = tk.Entry(root)
     modeLabel = tk.Label(root, text="mode:")
-    modeSelector = ttk.Combobox(root, values=["normal", "hard", "infinite"])
+    modeSelector = ttk.Combobox(root, values=["normal", "hard", "practice"]) #practice mode benutzt hard mode nur ohne tracking und fail condition
     continueButton = tk.Button(root, text="continue", command=start_quiz)
     nameLabel.grid(row=0, column=0)
     nameEntry.grid(row=0, column=1)
