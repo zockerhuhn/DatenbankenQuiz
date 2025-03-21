@@ -12,14 +12,14 @@ def start_browser():
   """
   global LoG
   options = webdriver.FirefoxOptions()
-  options.profile = FirefoxProfile("LeagueDatabank\\ttyzbxgh.default-release")
+  #options.profile = FirefoxProfile("LeagueDatabank\\ttyzbxgh.default-release")
   LoG = webdriver.Firefox(options)
   LoG.get("https://www.leagueofgraphs.com/champions/builds/by-champion-name")
 
 def get_championInfo():
     global LoG
     dictList = []
-    champsList = LoG.find_elements(by=By.XPATH, value="//div[@class ='txt']/span[@class ='name']|//div[@class ='txt']/i|//progressbar[@data-color='wggreen']/div[@class='progressBarTxt']") #/div/div[@class='progressBarTxt'] is just /div[@class='progressBarTxt'] on non school computers because of outdated firefox
+    champsList = LoG.find_elements(by=By.XPATH, value="//div[@class ='txt']/span[@class ='name']|//div[@class ='txt']/i|//progressbar[@data-color='wggreen']/div/div[@class='progressBarTxt']") #/div/div[@class='progressBarTxt'] is just /div[@class='progressBarTxt'] on non school computers because of outdated firefox
     for i in range(int(len(champsList)/3)):
       name = champsList[i*3].text
       identifier = champsList[i*3].text.lower().replace(" ", "").replace("'", "").replace(".", "").replace("&willump", "").replace("glasc", "").replace("wukong", "monkeyking")
@@ -65,8 +65,8 @@ def get_winrates(): #reference: https://www.leagueofgraphs.com/champions/builds/
 
 def connect_database():
   global mydb, mycursor
-  mydb = mysql.connector.connect(host="localhost", user= "eggbert",password="EggbertHatUser",database="leaguedb")
-  #mydb = mysql.connector.connect(host="10.0.41.8", user= "nutzer14",password="Eftg8xdx",database="Datenbank14")
+  #mydb = mysql.connector.connect(host="localhost", user= "eggbert",password="EggbertHatUser",database="leaguedb")
+  mydb = mysql.connector.connect(host="10.0.41.8", user= "nutzer14",password="Eftg8xdx",database="Datenbank14")
   mycursor = mydb.cursor()
 
 def insert_champions():
@@ -99,8 +99,8 @@ start_browser()
 get_championInfo()
 get_winrates()
 LoG.close()
-#insert_champions()
 connect_database()
-update_champions()
+insert_champions()
+#update_champions()
 mydb.commit()
 #input()

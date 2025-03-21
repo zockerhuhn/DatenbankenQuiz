@@ -3,115 +3,115 @@
     "identifier": "aatrox",
     "name": "Aatrox",
     "roles": "top",
-    "winrate": 49.7
+    "winrate": 50.3
   },
   {
     "identifier": "ahri",
     "name": "Ahri",
     "roles": "middle",
-    "winrate": 50.8
+    "winrate": 51.4
   },
   {
     "identifier": "akali",
     "name": "Akali",
     "roles": "middle,top",
-    "winrate": 49.4
+    "winrate": 49.3
   },
   {
     "identifier": "akshan",
     "name": "Akshan",
     "roles": "middle",
-    "winrate": 49.6
+    "winrate": 50.7
   },
   {
     "identifier": "alistar",
     "name": "Alistar",
     "roles": "support",
-    "winrate": 48.8
+    "winrate": 50.2
   },
   {
     "identifier": "ambessa",
     "name": "Ambessa",
     "roles": "top",
-    "winrate": 48.1
+    "winrate": 47.5
   },
   {
     "identifier": "amumu",
     "name": "Amumu",
     "roles": "jungle",
-    "winrate": 50.9
+    "winrate": 50.8
   },
   {
     "identifier": "anivia",
     "name": "Anivia",
     "roles": "middle",
-    "winrate": 51.6
+    "winrate": 51.9
   },
   {
     "identifier": "annie",
     "name": "Annie",
     "roles": "middle",
-    "winrate": 51.9
+    "winrate": 52.2
   },
   {
     "identifier": "aphelios",
     "name": "Aphelios",
     "roles": "adc",
-    "winrate": 49.0
+    "winrate": 49.2
   },
   {
     "identifier": "ashe",
     "name": "Ashe",
     "roles": "adc",
-    "winrate": 48.9
+    "winrate": 49.0
   },
   {
     "identifier": "aurelionsol",
     "name": "Aurelion Sol",
     "roles": "middle",
-    "winrate": 50.0
+    "winrate": 50.3
   },
   {
     "identifier": "aurora",
     "name": "Aurora",
     "roles": "middle",
-    "winrate": 48.5
+    "winrate": 47.5
   },
   {
     "identifier": "azir",
     "name": "Azir",
     "roles": "middle",
-    "winrate": 47.9
+    "winrate": 47.7
   },
   {
     "identifier": "bard",
     "name": "Bard",
     "roles": "support",
-    "winrate": 50.5
+    "winrate": 50.7
   },
   {
     "identifier": "belveth",
     "name": "Bel'Veth",
     "roles": "jungle",
-    "winrate": 48.5
+    "winrate": 48.3
   },
   {
     "identifier": "blitzcrank",
     "name": "Blitzcrank",
     "roles": "support",
-    "winrate": 48.1
+    "winrate": 48.6
   },
   {
     "identifier": "brand",
     "name": "Brand",
     "roles": "support",
-    "winrate": 48.7
+    "winrate": 49.5
   },
   {
     "identifier": "braum",
     "name": "Braum",
     "roles": "support",
-    "winrate": 51.6
+    "winrate": 52.0
   },
   {
     "identifier": "briar",
@@ -123,265 +123,265 @@
     "identifier": "caitlyn",
     "name": "Caitlyn",
     "roles": "adc",
-    "winrate": 49.0
+    "winrate": 49.6
   },
   {
     "identifier": "camille",
     "name": "Camille",
     "roles": "top",
-    "winrate": 50.0
+    "winrate": 49.1
   },
   {
     "identifier": "cassiopeia",
     "name": "Cassiopeia",
     "roles": "middle,top",
-    "winrate": 52.3
+    "winrate": 52.5
   },
   {
     "identifier": "chogath",
     "name": "Cho'Gath",
     "roles": "top,middle",
-    "winrate": 50.6
+    "winrate": 51.1
   },
   {
     "identifier": "corki",
     "name": "Corki",
     "roles": "adc",
-    "winrate": 50.0
+    "winrate": 48.8
   },
   {
     "identifier": "darius",
     "name": "Darius",
     "roles": "jungle,top",
-    "winrate": 53.2
+    "winrate": 52.4
   },
   {
     "identifier": "diana",
     "name": "Diana",
     "roles": "jungle,middle",
-    "winrate": 50.6
+    "winrate": 50.9
   },
   {
     "identifier": "drmundo",
     "name": "Dr. Mundo",
-    "roles": "top",
-    "winrate": 50.2
+    "roles": "top,jungle",
+    "winrate": 51.4
   },
   {
     "identifier": "draven",
     "name": "Draven",
     "roles": "adc",
-    "winrate": 48.9
+    "winrate": 49.3
   },
   {
     "identifier": "ekko",
     "name": "Ekko",
     "roles": "jungle,middle",
-    "winrate": 50.3
+    "winrate": 50.6
   },
   {
     "identifier": "elise",
     "name": "Elise",
     "roles": "jungle,support",
-    "winrate": 49.6
+    "winrate": 49.9
   },
   {
     "identifier": "evelynn",
     "name": "Evelynn",
     "roles": "jungle",
-    "winrate": 50.4
+    "winrate": 49.3
   },
   {
     "identifier": "ezreal",
     "name": "Ezreal",
     "roles": "adc",
-    "winrate": 48.6
+    "winrate": 47.9
   },
   {
     "identifier": "fiddlesticks",
     "name": "Fiddlesticks",
     "roles": "jungle,support",
-    "winrate": 50.7
+    "winrate": 51.8
   },
   {
     "identifier": "fiora",
     "name": "Fiora",
     "roles": "top",
-    "winrate": 49.8
+    "winrate": 49.2
   },
   {
     "identifier": "fizz",
     "name": "Fizz",
     "roles": "middle",
-    "winrate": 48.9
+    "winrate": 49.6
   },
   {
     "identifier": "galio",
     "name": "Galio",
     "roles": "middle",
-    "winrate": 50.7
+    "winrate": 51.6
   },
   {
     "identifier": "gangplank",
     "name": "Gangplank",
     "roles": "top",
-    "winrate": 48.0
+    "winrate": 48.9
   },
   {
     "identifier": "garen",
     "name": "Garen",
     "roles": "top",
-    "winrate": 50.3
+    "winrate": 50.5
   },
   {
     "identifier": "gnar",
     "name": "Gnar",
     "roles": "top",
-    "winrate": 49.2
+    "winrate": 48.9
   },
   {
     "identifier": "gragas",
     "name": "Gragas",
     "roles": "top,jungle",
-    "winrate": 49.3
+    "winrate": 48.6
   },
   {
     "identifier": "graves",
     "name": "Graves",
     "roles": "jungle",
-    "winrate": 49.9
+    "winrate": 49.5
   },
   {
     "identifier": "gwen",
     "name": "Gwen",
     "roles": "top,jungle",
-    "winrate": 50.2
+    "winrate": 52.0
   },
   {
     "identifier": "hecarim",
     "name": "Hecarim",
     "roles": "jungle",
-    "winrate": 49.0
+    "winrate": 49.4
   },
   {
     "identifier": "heimerdinger",
     "name": "Heimerdinger",
     "roles": "top",
-    "winrate": 51.5
+    "winrate": 51.3
   },
   {
     "identifier": "hwei",
     "name": "Hwei",
     "roles": "middle",
-    "winrate": 50.0
+    "winrate": 49.4
   },
   {
     "identifier": "illaoi",
     "name": "Illaoi",
     "roles": "top",
-    "winrate": 49.6
+    "winrate": 49.8
   },
   {
     "identifier": "irelia",
     "name": "Irelia",
     "roles": "top,middle",
-    "winrate": 50.2
+    "winrate": 50.6
   },
   {
     "identifier": "ivern",
     "name": "Ivern",
     "roles": "jungle",
-    "winrate": 48.8
+    "winrate": 48.7
   },
   {
     "identifier": "janna",
     "name": "Janna",
     "roles": "support",
-    "winrate": 50.8
+    "winrate": 51.3
   },
   {
     "identifier": "jarvaniv",
     "name": "Jarvan IV",
     "roles": "jungle",
-    "winrate": 51.0
+    "winrate": 50.9
   },
   {
     "identifier": "jax",
     "name": "Jax",
     "roles": "top",
-    "winrate": 49.3
+    "winrate": 49.5
   },
   {
     "identifier": "jayce",
     "name": "Jayce",
     "roles": "top",
-    "winrate": 48.6
+    "winrate": 48.4
   },
   {
     "identifier": "jhin",
     "name": "Jhin",
     "roles": "adc",
-    "winrate": 49.4
+    "winrate": 49.9
   },
   {
     "identifier": "jinx",
     "name": "Jinx",
     "roles": "adc",
-    "winrate": 51.8
+    "winrate": 51.6
   },
   {
     "identifier": "ksante",
     "name": "K'Sante",
     "roles": "top",
-    "winrate": 45.9
+    "winrate": 45.8
   },
   {
     "identifier": "kaisa",
     "name": "Kai'Sa",
     "roles": "adc",
-    "winrate": 48.3
+    "winrate": 48.7
   },
   {
     "identifier": "kalista",
     "name": "Kalista",
     "roles": "adc",
-    "winrate": 46.8
+    "winrate": 47.0
   },
   {
     "identifier": "karma",
     "name": "Karma",
     "roles": "support",
-    "winrate": 50.2
+    "winrate": 49.3
   },
   {
     "identifier": "karthus",
     "name": "Karthus",
     "roles": "jungle",
-    "winrate": 50.0
+    "winrate": 48.9
   },
   {
     "identifier": "kassadin",
     "name": "Kassadin",
     "roles": "middle",
-    "winrate": 50.0
+    "winrate": 50.9
   },
   {
     "identifier": "katarina",
     "name": "Katarina",
     "roles": "middle",
-    "winrate": 49.3
+    "winrate": 48.9
   },
   {
     "identifier": "kayle",
     "name": "Kayle",
     "roles": "top",
-    "winrate": 52.2
+    "winrate": 52.5
   },
   {
     "identifier": "kayn",
     "name": "Kayn",
     "roles": "jungle",
-    "winrate": 50.3
+    "winrate": 50.4
   },
   {
     "identifier": "kennen",
@@ -393,145 +393,145 @@
     "identifier": "khazix",
     "name": "Kha'Zix",
     "roles": "jungle",
-    "winrate": 49.1
+    "winrate": 49.6
   },
   {
     "identifier": "kindred",
     "name": "Kindred",
     "roles": "jungle",
-    "winrate": 49.4
+    "winrate": 49.0
   },
   {
     "identifier": "kled",
     "name": "Kled",
     "roles": "top",
-    "winrate": 51.0
+    "winrate": 50.1
   },
   {
     "identifier": "kogmaw",
     "name": "Kog'Maw",
     "roles": "adc",
-    "winrate": 53.2
+    "winrate": 52.4
   },
   {
     "identifier": "leblanc",
     "name": "LeBlanc",
     "roles": "middle",
-    "winrate": 49.3
+    "winrate": 48.9
   },
   {
     "identifier": "leesin",
     "name": "Lee Sin",
     "roles": "jungle",
-    "winrate": 48.5
+    "winrate": 48.4
   },
   {
     "identifier": "leona",
     "name": "Leona",
     "roles": "support",
-    "winrate": 49.4
+    "winrate": 49.3
   },
   {
     "identifier": "lillia",
     "name": "Lillia",
     "roles": "jungle",
-    "winrate": 49.2
+    "winrate": 50.9
   },
   {
     "identifier": "lissandra",
     "name": "Lissandra",
     "roles": "middle",
-    "winrate": 50.3
+    "winrate": 49.7
   },
   {
     "identifier": "lucian",
     "name": "Lucian",
     "roles": "adc",
-    "winrate": 49.6
+    "winrate": 50.2
   },
   {
     "identifier": "lulu",
     "name": "Lulu",
     "roles": "support",
-    "winrate": 51.3
+    "winrate": 51.5
   },
   {
     "identifier": "lux",
     "name": "Lux",
     "roles": "support,middle",
-    "winrate": 49.4
+    "winrate": 49.6
   },
   {
     "identifier": "malphite",
     "name": "Malphite",
     "roles": "top",
-    "winrate": 50.9
+    "winrate": 51.2
   },
   {
     "identifier": "malzahar",
     "name": "Malzahar",
     "roles": "middle",
-    "winrate": 51.6
+    "winrate": 51.0
   },
   {
     "identifier": "maokai",
     "name": "Maokai",
-    "roles": "support",
+    "roles": "support,jungle",
     "winrate": 50.1
   },
   {
     "identifier": "masteryi",
     "name": "Master Yi",
     "roles": "jungle",
-    "winrate": 50.3
+    "winrate": 49.5
   },
   {
     "identifier": "mel",
     "name": "Mel",
     "roles": "middle,support",
-    "winrate": 46.3
+    "winrate": 46.1
   },
   {
     "identifier": "milio",
     "name": "Milio",
     "roles": "support",
-    "winrate": 51.5
+    "winrate": 51.9
   },
   {
     "identifier": "missfortune",
     "name": "Miss Fortune",
     "roles": "adc",
-    "winrate": 50.3
+    "winrate": 50.5
   },
   {
     "identifier": "mordekaiser",
     "name": "Mordekaiser",
     "roles": "top",
-    "winrate": 51.1
+    "winrate": 51.0
   },
   {
     "identifier": "morgana",
     "name": "Morgana",
     "roles": "support",
-    "winrate": 50.1
+    "winrate": 49.8
   },
   {
     "identifier": "naafiri",
     "name": "Naafiri",
-    "roles": "middle",
-    "winrate": 51.3
+    "roles": "jungle,middle",
+    "winrate": 52.3
   },
   {
     "identifier": "nami",
     "name": "Nami",
     "roles": "support",
-    "winrate": 52.0
+    "winrate": 52.3
   },
   {
     "identifier": "nasus",
     "name": "Nasus",
     "roles": "top",
-    "winrate": 50.2
+    "winrate": 50.9
   },
   {
     "identifier": "nautilus",
@@ -543,355 +543,355 @@
     "identifier": "neeko",
     "name": "Neeko",
     "roles": "support,middle",
-    "winrate": 50.5
+    "winrate": 49.6
   },
   {
     "identifier": "nidalee",
     "name": "Nidalee",
     "roles": "jungle",
-    "winrate": 45.6
+    "winrate": 46.6
   },
   {
     "identifier": "nilah",
     "name": "Nilah",
     "roles": "adc",
-    "winrate": 53.8
+    "winrate": 53.1
   },
   {
     "identifier": "nocturne",
     "name": "Nocturne",
     "roles": "jungle",
-    "winrate": 51.6
+    "winrate": 51.7
   },
   {
     "identifier": "nunu",
     "name": "Nunu & Willump",
     "roles": "jungle",
-    "winrate": 51.5
+    "winrate": 50.6
   },
   {
     "identifier": "olaf",
     "name": "Olaf",
     "roles": "top",
-    "winrate": 50.7
+    "winrate": 50.4
   },
   {
     "identifier": "orianna",
     "name": "Orianna",
     "roles": "middle",
-    "winrate": 49.2
+    "winrate": 49.0
   },
   {
     "identifier": "ornn",
     "name": "Ornn",
     "roles": "top",
-    "winrate": 51.1
+    "winrate": 51.6
   },
   {
     "identifier": "pantheon",
     "name": "Pantheon",
     "roles": "jungle,support,top",
-    "winrate": 50.1
+    "winrate": 50.0
   },
   {
     "identifier": "poppy",
     "name": "Poppy",
-    "roles": "support,top",
-    "winrate": 49.9
+    "roles": "support,top,jungle",
+    "winrate": 50.4
   },
   {
     "identifier": "pyke",
     "name": "Pyke",
     "roles": "support",
-    "winrate": 48.6
+    "winrate": 48.2
   },
   {
     "identifier": "qiyana",
     "name": "Qiyana",
     "roles": "middle",
-    "winrate": 49.0
+    "winrate": 49.7
   },
   {
     "identifier": "quinn",
     "name": "Quinn",
     "roles": "top,middle",
-    "winrate": 52.4
+    "winrate": 51.6
   },
   {
     "identifier": "rakan",
     "name": "Rakan",
     "roles": "support",
-    "winrate": 49.8
+    "winrate": 49.7
   },
   {
     "identifier": "rammus",
     "name": "Rammus",
     "roles": "jungle",
-    "winrate": 50.5
+    "winrate": 50.8
   },
   {
     "identifier": "reksai",
     "name": "Rek'Sai",
     "roles": "jungle",
-    "winrate": 50.3
+    "winrate": 49.3
   },
   {
     "identifier": "rell",
     "name": "Rell",
     "roles": "support",
-    "winrate": 50.1
+    "winrate": 50.3
   },
   {
     "identifier": "renata",
     "name": "Renata Glasc",
     "roles": "support",
-    "winrate": 48.9
+    "winrate": 49.8
   },
   {
     "identifier": "renekton",
     "name": "Renekton",
     "roles": "top",
-    "winrate": 49.4
+    "winrate": 50.1
   },
   {
     "identifier": "rengar",
     "name": "Rengar",
     "roles": "jungle",
-    "winrate": 47.0
+    "winrate": 46.0
   },
   {
     "identifier": "riven",
     "name": "Riven",
     "roles": "top",
-    "winrate": 50.1
+    "winrate": 50.3
   },
   {
     "identifier": "rumble",
     "name": "Rumble",
     "roles": "top",
-    "winrate": 48.0
+    "winrate": 47.9
   },
   {
     "identifier": "ryze",
     "name": "Ryze",
     "roles": "middle,top",
-    "winrate": 50.7
+    "winrate": 50.9
   },
   {
     "identifier": "samira",
     "name": "Samira",
     "roles": "adc",
-    "winrate": 49.7
+    "winrate": 49.8
   },
   {
     "identifier": "sejuani",
     "name": "Sejuani",
     "roles": "jungle",
-    "winrate": 49.2
+    "winrate": 48.7
   },
   {
     "identifier": "senna",
     "name": "Senna",
     "roles": "support",
-    "winrate": 50.6
+    "winrate": 49.8
   },
   {
     "identifier": "seraphine",
     "name": "Seraphine",
     "roles": "support",
-    "winrate": 49.6
+    "winrate": 49.5
   },
   {
     "identifier": "sett",
     "name": "Sett",
     "roles": "top",
-    "winrate": 51.1
+    "winrate": 51.5
   },
   {
     "identifier": "shaco",
     "name": "Shaco",
     "roles": "jungle,support",
-    "winrate": 48.6
+    "winrate": 49.0
   },
   {
     "identifier": "shen",
     "name": "Shen",
     "roles": "top",
-    "winrate": 49.5
+    "winrate": 48.8
   },
   {
     "identifier": "shyvana",
     "name": "Shyvana",
     "roles": "jungle",
-    "winrate": 50.1
+    "winrate": 50.7
   },
   {
     "identifier": "singed",
     "name": "Singed",
     "roles": "top",
-    "winrate": 52.5
+    "winrate": 52.8
   },
   {
     "identifier": "sion",
     "name": "Sion",
     "roles": "top",
-    "winrate": 50.6
+    "winrate": 50.1
   },
   {
     "identifier": "sivir",
     "name": "Sivir",
     "roles": "adc",
-    "winrate": 51.4
+    "winrate": 52.0
   },
   {
     "identifier": "skarner",
     "name": "Skarner",
     "roles": "jungle",
-    "winrate": 43.4
+    "winrate": 44.1
   },
   {
     "identifier": "smolder",
     "name": "Smolder",
     "roles": "adc",
-    "winrate": 47.1
+    "winrate": 48.3
   },
   {
     "identifier": "sona",
     "name": "Sona",
     "roles": "support",
-    "winrate": 50.7
+    "winrate": 51.4
   },
   {
     "identifier": "soraka",
     "name": "Soraka",
     "roles": "support",
-    "winrate": 51.5
+    "winrate": 51.4
   },
   {
     "identifier": "swain",
     "name": "Swain",
     "roles": "support,middle",
-    "winrate": 50.6
+    "winrate": 50.4
   },
   {
     "identifier": "sylas",
     "name": "Sylas",
     "roles": "middle",
-    "winrate": 49.3
+    "winrate": 48.8
   },
   {
     "identifier": "syndra",
     "name": "Syndra",
     "roles": "middle",
-    "winrate": 50.6
+    "winrate": 50.7
   },
   {
     "identifier": "tahmkench",
     "name": "Tahm Kench",
     "roles": "support,top",
-    "winrate": 48.9
+    "winrate": 49.2
   },
   {
     "identifier": "taliyah",
     "name": "Taliyah",
-    "roles": "middle,jungle",
+    "roles": "middle",
     "winrate": 50.6
   },
   {
     "identifier": "talon",
     "name": "Talon",
     "roles": "jungle,middle",
-    "winrate": 49.3
+    "winrate": 50.3
   },
   {
     "identifier": "taric",
     "name": "Taric",
     "roles": "support",
-    "winrate": 51.4
+    "winrate": 51.5
   },
   {
     "identifier": "teemo",
     "name": "Teemo",
     "roles": "top",
-    "winrate": 50.5
+    "winrate": 51.2
   },
   {
     "identifier": "thresh",
     "name": "Thresh",
     "roles": "support",
-    "winrate": 50.9
+    "winrate": 50.8
   },
   {
     "identifier": "tristana",
     "name": "Tristana",
     "roles": "adc",
-    "winrate": 51.1
+    "winrate": 50.8
   },
   {
     "identifier": "trundle",
     "name": "Trundle",
     "roles": "top,jungle",
-    "winrate": 50.1
+    "winrate": 49.9
   },
   {
     "identifier": "tryndamere",
     "name": "Tryndamere",
     "roles": "top",
-    "winrate": 49.7
+    "winrate": 49.9
   },
   {
     "identifier": "twistedfate",
     "name": "Twisted Fate",
     "roles": "middle",
-    "winrate": 48.6
+    "winrate": 49.8
   },
   {
     "identifier": "twitch",
     "name": "Twitch",
     "roles": "adc",
-    "winrate": 49.9
+    "winrate": 50.2
   },
   {
     "identifier": "udyr",
     "name": "Udyr",
     "roles": "jungle",
-    "winrate": 49.3
+    "winrate": 50.1
   },
   {
     "identifier": "urgot",
     "name": "Urgot",
     "roles": "top",
-    "winrate": 52.1
+    "winrate": 51.8
   },
   {
     "identifier": "varus",
     "name": "Varus",
     "roles": "adc",
-    "winrate": 48.9
+    "winrate": 48.8
   },
   {
     "identifier": "vayne",
     "name": "Vayne",
     "roles": "adc",
-    "winrate": 51.5
+    "winrate": 51.3
   },
   {
     "identifier": "veigar",
     "name": "Veigar",
     "roles": "middle",
-    "winrate": 50.4
+    "winrate": 50.1
   },
   {
     "identifier": "velkoz",
     "name": "Vel'Koz",
     "roles": "support,middle",
-    "winrate": 51.1
+    "winrate": 50.9
   },
   {
     "identifier": "vex",
     "name": "Vex",
     "roles": "middle",
-    "winrate": 51.4
+    "winrate": 51.0
   },
   {
     "identifier": "vi",
@@ -903,7 +903,7 @@
     "identifier": "viego",
     "name": "Viego",
     "roles": "jungle",
-    "winrate": 49.4
+    "winrate": 49.5
   },
   {
     "identifier": "viktor",
@@ -915,73 +915,73 @@
     "identifier": "vladimir",
     "name": "Vladimir",
     "roles": "middle,top",
-    "winrate": 50.3
+    "winrate": 50.0
   },
   {
     "identifier": "volibear",
     "name": "Volibear",
     "roles": "top,jungle",
-    "winrate": 49.6
+    "winrate": 50.1
   },
   {
     "identifier": "warwick",
     "name": "Warwick",
     "roles": "jungle,top",
-    "winrate": 51.6
+    "winrate": 51.5
   },
   {
     "identifier": "monkeyking",
     "name": "Wukong",
     "roles": "jungle,top",
-    "winrate": 50.7
+    "winrate": 50.3
   },
   {
     "identifier": "xayah",
     "name": "Xayah",
     "roles": "adc",
-    "winrate": 50.0
+    "winrate": 49.7
   },
   {
     "identifier": "xerath",
     "name": "Xerath",
-    "roles": "middle,support",
-    "winrate": 50.6
+    "roles": "support,middle",
+    "winrate": 50.3
   },
   {
     "identifier": "xinzhao",
     "name": "Xin Zhao",
     "roles": "jungle",
-    "winrate": 50.6
+    "winrate": 51.1
   },
   {
     "identifier": "yasuo",
     "name": "Yasuo",
     "roles": "middle",
-    "winrate": 50.1
+    "winrate": 50.0
   },
   {
     "identifier": "yone",
     "name": "Yone",
     "roles": "middle,top",
-    "winrate": 48.0
+    "winrate": 47.8
   },
   {
     "identifier": "yorick",
     "name": "Yorick",
     "roles": "top,jungle",
-    "winrate": 51.5
+    "winrate": 51.1
   },
   {
     "identifier": "yuumi",
     "name": "Yuumi",
     "roles": "support",
-    "winrate": 50.5
+    "winrate": 50.6
   },
   {
     "identifier": "zac",
     "name": "Zac",
     "roles": "jungle",
-    "winrate": 49.6
+    "winrate": 49.5
   },
   {
     "identifier": "zed",
@@ -993,30 +993,30 @@
     "identifier": "zeri",
     "name": "Zeri",
     "roles": "adc",
-    "winrate": 49.5
+    "winrate": 49.3
   },
   {
     "identifier": "ziggs",
     "name": "Ziggs",
     "roles": "adc,middle",
-    "winrate": 50.3
+    "winrate": 49.8
   },
   {
     "identifier": "zilean",
     "name": "Zilean",
     "roles": "support",
-    "winrate": 51.3
+    "winrate": 51.4
   },
   {
     "identifier": "zoe",
     "name": "Zoe",
     "roles": "middle,support",
-    "winrate": 49.4
+    "winrate": 49.8
   },
   {
     "identifier": "zyra",
     "name": "Zyra",
     "roles": "support,jungle",
-    "winrate": 50.1
+    "winrate": 50.6
   }
 ]
